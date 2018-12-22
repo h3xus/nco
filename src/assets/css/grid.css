@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,400,300,300);
 
 html,
 body {
@@ -14,7 +14,7 @@ body {
 /* ROOT FONT STYLES */
 
 * {
-    font-family: 'Lato', Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #333447;
     line-height: 1.5;
 }

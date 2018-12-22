@@ -16,27 +16,22 @@ export default {
   methods: {
     changeLanguage(lang) {
       this.switchLanguage = lang
-      // 設定語系
-      // 花了兩天找文件終於找到惹
       // https://kazupon.github.io/vue-i18n/en/sfc.html
       this.$i18n.locale = lang
-      this.currentComponent = this.$route.path.split("/")[2]
-      // console.log(lang)
-      // console.log(this.$route.path.split("/")[2])
-      // console.log(this.$route.path)
-      // console.log("currentLanguage: " + this.switchLanguage)
-      // console.log("currentComponent: " + this.currentComponent)
+      this.currentComponent = this.$route.path.split("/")[2]      
     },
     updateScroll() {
       this.scrollPosition = window.scrollY
       // console.log(this.scrollPosition)
       if (this.scrollPosition > 100) {
-        // console.log('> 100!')
-        $('#app .box').addClass('scrollActive')
-        $('#app .box').removeClass('scrollInActive')
+        // window.select
+        document.querySelector(".navbar").classList.add("scrolling")
+        // $('#app .box').addClass('scrollActive')
+        // $('#app .box').removeClass('scrollInActive')
       } else {
-        $('#app .box').removeClass('scrollActive')
-        $('#app .box').addClass('scrollInActive')
+        document.querySelector(".navbar").classList.remove("scrolling")
+        // $('#app .box').removeClass('scrollActive')
+        // $('#app .box').addClass('scrollInActive')
       }
     }
   }
