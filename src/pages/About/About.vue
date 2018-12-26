@@ -2,7 +2,7 @@
     <div class="container">
       <!-- container 1 -->
       <div class="row">
-        <div class="col-xs-12 col-md-8 boxy-white boxy-half_height">
+        <div class="col-xs-12 col-md-8 boxy-white">
           <div class="content">
             <h1>{{ $t("message.about_tab_title") }}</h1>
             <p>{{ $t("message.about_tab_content") }}</p>
@@ -12,7 +12,7 @@
       </div>
       <!-- section 2 -->
       <div class="row">
-        <div class="col-xs-12 col-md-9 boxy boxy-half_height">
+        <div class="col-xs-12 col-md-9 boxy">
           <div class="double-column">  
               <div class="left-column">
                 <h2>{{ $t("message.about_tab_values") }}</h2>
@@ -40,7 +40,43 @@
       </div>
       <!-- section 3 -->
       <div class="row">
-        <div class="col-xs-12 col-md-12 boxy-white ">
+        <div class="col-xs-12 col-md-12 boxy-grey ">
+          <div class="content">
+            <h2> {{$t("message.about_tab_approach_title")}}</h2> 
+            <p> {{$t("message.about_tab_approach")}}</p>
+          </div>            
+        </div>
+      </div>
+      <!-- section 4 -->
+      <div class="row">
+        <div class="col-xs-12 col-md-12 boxy-white">
+          <div class="icon-box">
+            <div class="icon-1 icon">
+              <div class="icon-img">
+                <img src="./../../assets/images/icon-1.jpg" alt="icon">
+              </div>
+              <span>{{ $t("message.about_tab_icon1") }}</span></div>
+            <div class="icon-2 icon">
+              <div class="icon-img">
+                <img src="./../../assets/images/icon-2.jpg" alt="icon">
+              </div>
+              <span>{{ $t("message.about_tab_icon2") }}</span></div>
+            <div class="icon-3 icon">
+              <div class="icon-img">
+                <img src="./../../assets/images/icon-3.jpg" alt="icon">
+              </div>
+              <span>{{ $t("message.about_tab_icon3") }}</span></div>
+            <div class="icon-4 icon">
+              <div class="icon-img">
+                <img src="./../../assets/images/icon-4.jpg" alt="icon">
+              </div>
+              <span>{{ $t("message.about_tab_icon4") }}</span></div>
+            <div class="icon-5 icon">
+              <div class="icon-img">
+                <img src="./../../assets/images/icon-5.jpg" alt="icon">
+              </div>
+              <span>{{ $t("message.about_tab_icon5") }}</span></div>
+          </div>  
         </div>
       </div>
     </div>
@@ -49,52 +85,5 @@
 <script src='./about-page.js'></script>
 
 <style lang="sass" scoped>
-.boxy 
-  background: #5945F3
-  padding: 5px
-  border: 2px solid #ccc
-  height: 100vh
-  color: #fff
-.boxy h2, .boxy p, .boxy span
-  color: #fff
-.boxy-white
-  /* background: #fff */
-  padding: 5px
-  height: 80vh
-.boxy-half_height
-  /* height: 70vh */
-.double-column
-  display: grid
-  grid-template-columns: auto auto
-  grid-template-rows: auto
-.double-column .left-column
-  padding: 15%
-  justify-self: start
-.double-column .left-column p
-  font-size: 14px
-.double-column .right-column
-  padding: 15%
-  justify-self: end
-.double-column .right-column ol li
-  margin-bottom: 30%
-.double-column .right-column ol li span:nth-child(1)
-  font-size: 24px 
-  font-weigth: 700
-.double-column .right-column ol li span:nth-child(2)
-  margin-top: 20px
-  font-size: 8px
-  float: left
-ol
-  list-style: none
-  counter-reset: my-awesome-counter
-ol li 
-  position: relative
-  counter-increment: my-awesome-counter
-ol li::before 
-  position: absolute
-  left: -20px
-  bottom: 5px
-  content: "0" counter(my-awesome-counter) ". "
-  color: white
-  font-size: 10px
+
 </style>

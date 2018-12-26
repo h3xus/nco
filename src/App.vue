@@ -36,7 +36,7 @@ export default {
 <style lang="sass">
   body
     background: #fff
-    background-image: url('./assets/images/bg.jpg');
+    background-image: url('./assets/images/bg.jpg')
     box-sizing: border-box
   .content
     margin-left: 10vw
@@ -57,4 +57,66 @@ export default {
   .page-enter, .page-leave-to, .slide-right 
     opacity: 0
     transform: translateX(-30%)
+  .boxy 
+    background: #5945F3
+    padding: 5px
+    height: 100vh
+    color: #fff
+  .boxy h2, .boxy p, .boxy span
+    color: #fff
+  .boxy-white
+    padding: 5px
+    height: 80vh
+  .boxy-grey
+    background: #ccc
+    height: 60vh
+  .icon-box 
+    display: grid
+    // grid-gap: 10px
+    grid-template-columns: auto auto auto auto auto 
+    background-color: #fff
+    color: #444
+  .icon-box .icon
+    text-align: center  
+  .icon-box .icon span
+    font-weigth: 700
+    font-size: 10px
+    color: #5945F3
+  .double-column
+    display: grid
+    grid-template-columns: auto auto
+    grid-template-rows: auto
+  .double-column .left-column
+    padding: 15%
+    justify-self: start
+  .double-column .left-column p
+    font-size: 14px
+  .double-column .right-column
+    padding: 15%
+    justify-self: end
+  .double-column .right-column ol li
+    margin-bottom: 30%
+  .double-column .right-column ol li span:nth-child(1)
+    font-size: 24px 
+    font-weigth: 700
+  .double-column .right-column ol li span:nth-child(2)
+    margin-top: 20px
+    font-size: 8px
+    float: left
+  ol
+    list-style: none
+    counter-reset: ncon-counter
+  ol li 
+    position: relative
+    counter-increment: ncon-counter
+  ol li::before 
+    position: absolute
+    left: -20px
+    bottom: 5px
+    content: "0" counter(ncon-counter) ". "
+    color: white
+    font-size: 10px
+  .icon-box .icon .icon-img img
+    width: 80px
+    height: 70px
 </style>
