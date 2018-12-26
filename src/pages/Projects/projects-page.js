@@ -8,17 +8,15 @@ export default {
             company: '$t("message.projects_tab_project1_company")',
             testi: '$t("message.projects_tab_project1_testemonial")',
             claim: '$t("message.projects_tab_project1_claim")',
-            details: '$t("message.projects_tab_project1_details")',
+            details: '$t("message.projects_tab_project1_details")'
           }
         ],
         foo: {
           bar: "baz"
+          }
         }
-        }
-      },
+  },
   components: {
-    HeaderComponent,
-    
+    HeaderComponent 
   }
-  
 }

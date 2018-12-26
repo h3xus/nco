@@ -13,21 +13,19 @@
       <!-- section 2 -->
       <div class="row">
         <div class="col-xs-12 col-md-9 boxy">
-          <div class="double-column">  
-              <div class="left-column">
-                <h2>{{ $t("message.about_tab_values") }}</h2>
-                <p>{{ $t("message.about_tab_claim") }}</p> 
-              </div>
-              <div class="right-column">
-                <!-- {{$t("message.projects_tab_projects")}} -->
-                <ul id="projects">
-                  {{items}}
-                  <!-- <li v-repeat="item in items" >
-                    {{item}} 
-                  </li> -->
-                </ul>
-              </div>
-          </div>    
+          <ul id="projects">
+            <li v-repeat="item in items" >
+              <div class="double-column">  
+                <div class="left-column">
+                  <h2>{{ item.person }}</h2>
+                  <p>{{ item.company }}</p> 
+                </div>
+                <div class="right-column">
+                    <!-- {{$t("message.projects_tab_projects")}} -->
+                </div>
+              </div>    
+            </li>
+          </ul>         
         </div>
         <div class="col-xs-6 col-md-5"></div>
       </div>

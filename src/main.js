@@ -1,11 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import VueI18n from 'vue-i18n'
-// import BootstrapVue from 'bootstrap-vue'
 
 Vue.use(VueRouter)
 Vue.use(VueI18n)
-// Vue.use(BootstrapVue);
 
 // i18n
 import en_translation from './i18n/en.json' 
