@@ -14,17 +14,21 @@
       <div class="row">
         <div class="col-xs-12 col-md-9 boxy">
           <ul id="projects">
-            <li v-repeat="item in items" >
+            <!-- <li v-repeat="item in items" > -->
               <div class="double-column">  
-                <div class="left-column">
-                  <h2>{{ item.person }}</h2>
-                  <p>{{ item.company }}</p> 
+                <div class="left-column">                  
                 </div>
                 <div class="right-column">
-                    <!-- {{$t("message.projects_tab_projects")}} -->
+                  <div class="text-content text-center">
+                    <p>{{$t("message.projects_tab_project1_claim")}}</p>
+                    <p>{{$t("message.projects_tab_project1_testemonial")}}</p>
+                    <p>{{$t("message.projects_tab_project1_details")}}</p>
+                    <p>{{$t("message.projects_tab_project1_person")}}</p>
+                    <p>{{$t("message.projects_tab_project1_company")}}</p>
+                  </div>
                 </div>
               </div>    
-            </li>
+            <!-- </li> -->
           </ul>         
         </div>
         <div class="col-xs-6 col-md-5"></div>
@@ -38,7 +42,7 @@
           </div>            
         </div>
       </div
-      <!-- section    -->
+      <!-- section 4  -->
 
     </div>
 </template>

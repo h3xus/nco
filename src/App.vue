@@ -119,4 +119,6 @@ export default {
   .icon-box .icon .icon-img img
     width: 80px
     height: 70px
+  .text-center
+    text-align: center
 </style>
