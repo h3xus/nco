@@ -16,7 +16,8 @@
           <ul id="projects">
             <!-- <li v-repeat="item in items" > -->
               <div class="double-column">  
-                <div class="left-column">                  
+                <div class="left-column">      
+                  <div class="avatar"><div></div></div>            
                 </div>
                 <div class="right-column">
                   <div class="text-content text-center">
@@ -50,5 +51,9 @@
 <script src='./projects-page.js'></script>
 
 <style lang="sass" scoped>
-
+.avatar
+  width: 90px
+  height: 90px
+  background: #ccc
+  border-radius: 80px
 </style>

@@ -12,4 +12,6 @@
 <style lang="sass">
 .nav-footer
   background: #ACACAC
+  .nav-footer-content
+    display: grid
 </style>

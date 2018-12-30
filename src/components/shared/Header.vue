@@ -42,8 +42,8 @@
   width: 100%
 /* NAVIGATION */
 .scrolling 
-   background: #fff
-   z-index: 1
+  background: #fff
+  z-index: 1
 .navbar 
   position: fixed
   display: grid
@@ -102,7 +102,7 @@
   transform: translateY(-8px) rotate(-45deg)
 /* Media Queries */
 
-  /* Mobile Devices - Phones/Tablets */
+/* Mobile Devices - Phones/Tablets */
 
 @media only screen and (max-width: 720px) 
   .features 
