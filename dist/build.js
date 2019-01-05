@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "/dist/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 59);
+/******/ 	return __webpack_require__(__webpack_require__.s = 52);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -239,7 +239,7 @@ if (typeof DEBUG !== 'undefined' && DEBUG) {
   ) }
 }
 
-var listToStyles = __webpack_require__(58)
+var listToStyles = __webpack_require__(51)
 
 /*
 type StyleObject = {
@@ -452,13 +452,13 @@ function applyToTag (styleElement, obj) {
 /***/ (function(module, exports, __webpack_require__) {
 
 function injectStyle (ssrContext) {
-  __webpack_require__(54)
+  __webpack_require__(47)
 }
 var Component = __webpack_require__(1)(
   /* script */
   __webpack_require__(18),
   /* template */
-  __webpack_require__(46),
+  __webpack_require__(39),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -2116,13 +2116,13 @@ VueI18n.version = '7.8.1';
 /***/ (function(module, exports, __webpack_require__) {
 
 function injectStyle (ssrContext) {
-  __webpack_require__(53)
+  __webpack_require__(46)
 }
 var Component = __webpack_require__(1)(
   /* script */
   __webpack_require__(15),
   /* template */
-  __webpack_require__(45),
+  __webpack_require__(38),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -2139,13 +2139,13 @@ module.exports = Component.exports
 /***/ (function(module, exports, __webpack_require__) {
 
 function injectStyle (ssrContext) {
-  __webpack_require__(55)
+  __webpack_require__(48)
 }
 var Component = __webpack_require__(1)(
   /* script */
   __webpack_require__(19),
   /* template */
-  __webpack_require__(47),
+  __webpack_require__(40),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -2162,13 +2162,13 @@ module.exports = Component.exports
 /***/ (function(module, exports, __webpack_require__) {
 
 function injectStyle (ssrContext) {
-  __webpack_require__(50)
+  __webpack_require__(43)
 }
 var Component = __webpack_require__(1)(
   /* script */
   __webpack_require__(20),
   /* template */
-  __webpack_require__(42),
+  __webpack_require__(35),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -2185,13 +2185,13 @@ module.exports = Component.exports
 /***/ (function(module, exports, __webpack_require__) {
 
 function injectStyle (ssrContext) {
-  __webpack_require__(57)
+  __webpack_require__(50)
 }
 var Component = __webpack_require__(1)(
   /* script */
   __webpack_require__(16),
   /* template */
-  __webpack_require__(49),
+  __webpack_require__(42),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -2208,13 +2208,13 @@ module.exports = Component.exports
 /***/ (function(module, exports, __webpack_require__) {
 
 function injectStyle (ssrContext) {
-  __webpack_require__(56)
+  __webpack_require__(49)
 }
 var Component = __webpack_require__(1)(
   /* script */
   __webpack_require__(21),
   /* template */
-  __webpack_require__(48),
+  __webpack_require__(41),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -2231,13 +2231,13 @@ module.exports = Component.exports
 /***/ (function(module, exports, __webpack_require__) {
 
 function injectStyle (ssrContext) {
-  __webpack_require__(51)
+  __webpack_require__(44)
 }
 var Component = __webpack_require__(1)(
   /* script */
   __webpack_require__(22),
   /* template */
-  __webpack_require__(43),
+  __webpack_require__(36),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -15946,13 +15946,13 @@ Vue.compile = compileToFunctions;
 
 /* harmony default export */ __webpack_exports__["a"] = (Vue);
 
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(4), __webpack_require__(40).setImmediate))
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(4), __webpack_require__(33).setImmediate))
 
 /***/ }),
 /* 14 */
 /***/ (function(module, exports) {
 
-module.exports = {"home":"Home","about_tab":"About NCON","how_it_works_tab":"How It Works","projects_tab":"Previous projects","join_us_tab":"Join Us","contact_us_tab":"Contact us","activate_kit_tab":"Activate Kit","homepage":"Homepage is here","about_tab_title":"About Ncon","about_tab_content":"NCON is a Norwegian based business consultancy firm, built to help your business reach the next level. With years of broad experience from a variety of industries and issues, we use our expertise to advance companies. Our speciality is to provide competitive services no matter the nature of your challenge, and being able to see the connection between significant factors. In order to best develop your business, we always aim to target and meet your specific needs. It is in NCON’s focus to strive to offer our clients the best prices to performance ratio. ","about_tab_values":"NCON values","about_tab_claim":"NCON are affected by strong principles, beliefs and values, boiled down to three focus areas:","about_tab_point1_title":"Adaptable","about_tab_point1":"Appreciating the exceptionality of every project, and being flexible when searching for the suited solutions. ","about_tab_point2_title":"Open minded","about_tab_point2":"Looking beyond the known boundaries, striving to develop new set of skills in order to stay present and relevant. ","about_tab_point3_title":"Determination","about_tab_point3":"With commitment and purpose driven processes come results that are implementable and embedded in the specific business strategies. ","about_tab_approach_title":"NCON approach","about_tab_approach":"Business consulting, product development, market research, innovative solutions... These are only some of the areas in which NCON can provide results for your business. The key lies within how NCON experts work, in an approach that turns a challenge into an opportunity. This approach is developed with the aim of being appropriate for all project processes, as the five steps below can be adjusted to a given situation. ","about_tab_icon1":"Defining client needs","about_tab_icon2":"Defining projects goals","about_tab_icon3":"Agreements with client","about_tab_icon4":"Analyse and develop","about_tab_icon5":"Delivery of project","projects_tab_title":"Previous projects","projects_tab_subtitle":"The experts of NCON obtain broad knowledge within business consultancy. Learn more about our experiences from previous work by having a look at the references below.","projects_tab_project1_person":"Roger Wilsson","projects_tab_project1_company":"SAS","projects_tab_project1_testemonial":"product development manager","projects_tab_project1_details":"The team developed two new possible concepts for the SAS Lounges, where the goal was to create new revenue streams and reduce costs. They completed the project by delivering a final report and presentation for SAS.","projects_tab_project1_claim":"The New Lifestyle/ Where your Journey with SAS begins","joinus_tab_title":"Join Us","contact_tab_title":"Contact us"}
+module.exports = {"home":"Home","about_tab":"About NCON","how_it_works_tab":"How It Works","projects_tab":"Previous projects","join_us_tab":"Join Us","contact_us_tab":"Contact us","activate_kit_tab":"Activate Kit","homepage":"Homepage is here","about_tab_title":"About Ncon","about_tab_content":"NCON is a Norwegian based business consultancy firm, built to help your business reach the next level. With years of broad experience from a variety of industries and issues, we use our expertise to advance companies. Our speciality is to provide competitive services no matter the nature of your challenge, and being able to see the connection between significant factors. In order to best develop your business, we always aim to target and meet your specific needs. It is in NCON’s focus to strive to offer our clients the best prices to performance ratio. ","about_tab_values":"NCON values","about_tab_claim":"NCON are affected by strong principles, beliefs and values, boiled down to three focus areas:","about_tab_point1_title":"Adaptable","about_tab_point1":"Appreciating the exceptionality of every project, and being flexible when searching for the suited solutions. ","about_tab_point2_title":"Open minded","about_tab_point2":"Looking beyond the known boundaries, striving to develop new set of skills in order to stay present and relevant. ","about_tab_point3_title":"Determination","about_tab_point3":"With commitment and purpose driven processes come results that are implementable and embedded in the specific business strategies. ","about_tab_approach_title":"NCON approach","about_tab_approach":"Business consulting, product development, market research, innovative solutions... These are only some of the areas in which NCON can provide results for your business. The key lies within how NCON experts work, in an approach that turns a challenge into an opportunity. This approach is developed with the aim of being appropriate for all project processes, as the five steps below can be adjusted to a given situation. ","about_tab_icon1":"Defining client needs","about_tab_icon2":"Defining projects goals","about_tab_icon3":"Agreements with client","about_tab_icon4":"Analyse and develop","about_tab_icon5":"Delivery of project","projects_tab_title":"Previous projects","projects_tab_subtitle":"The experts of NCON obtain broad knowledge within business consultancy. Learn more about our experiences from previous work by having a look at the references below.","projects_tab_project1_person":"Roger Wilsson","projects_tab_project1_company":"SAS","projects_tab_project1_testemonial":"product development manager","projects_tab_project1_details":"The team developed two new possible concepts for the SAS Lounges, where the goal was to create new revenue streams and reduce costs. They completed the project by delivering a final report and presentation for SAS.","projects_tab_project1_claim":"The New Lifestyle/ Where your Journey with SAS begins","projects_tab_project2_person":"Roger Wilsson","projects_tab_project2_company":"SAS","projects_tab_project2_testemonial":"product development manager","projects_tab_project2_details":"The team developed two new possible concepts for the SAS Lounges, where the goal was to create new revenue streams and reduce costs. They completed the project by delivering a final report and presentation for SAS.","projects_tab_project2_claim":"The New Lifestyle/ Where your Journey with SAS begins","projects_tab_project3_person":"Roger Wilsson","projects_tab_project3_company":"SAS","projects_tab_project3_testemonial":"product development manager","projects_tab_project3_details":"The team developed two new possible concepts for the SAS Lounges, where the goal was to create new revenue streams and reduce costs. They completed the project by delivering a final report and presentation for SAS.","projects_tab_project3_claim":"The New Lifestyle/ Where your Journey with SAS begins","joinus_tab_title":"Join Us","joinus_tab_paragraph1":"Are the NCON way of working something that triggers you? Maybe you entail some of the typical business expertise areas, or even a set of skills that you think we lack of? Do you want to be a part of our network of problem solving experts?","joinus_tab_paragraph2":"You might be a specialist in design, people management, finance, or something else. Perhaps you are looking for opportunities to be working a lot, or not so much. And you are either based in Oslo, or in another place. NCON is open minded to look beyond boundaries. NCON is adaptable when expanding the network. NCON is determined to offer the very best consultants there is. ","joinus_tab_paragraph3":"NCON is always looking for talented minds to join our super-teams, and we would really like to get in touch with you for a casual chat. ","joinus_tab_paragraph4":"Join Us","joinus_tab_paragraph":"Join Us","contact_tab_title":"Contact us","contact_tab_paragraph1":"Do you have a business challenge that needs to be solved?","contact_tab_paragraph2":"Leave your contact information to learn more on how NCON can provide the best solutions to your issues, and we will follow up by contacting you as soon as possible."}
 
 /***/ }),
 /* 15 */
@@ -15962,7 +15962,7 @@ module.exports = {"home":"Home","about_tab":"About NCON","how_it_works_tab":"How
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_shared_Header_vue__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_shared_Header_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__components_shared_Header_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_shared_Footer_vue__ = __webpack_require__(41);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_shared_Footer_vue__ = __webpack_require__(34);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_shared_Footer_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__components_shared_Footer_vue__);
 //
 //
@@ -16174,7 +16174,7 @@ exports = module.exports = __webpack_require__(0)();
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, ".avatar[data-v-26132de8]{width:90px;height:90px;background:#ccc;border-radius:80px}", ""]);
 
 // exports
 
@@ -16188,7 +16188,7 @@ exports = module.exports = __webpack_require__(0)();
 
 
 // module
-exports.push([module.i, ".nav-footer{background:#acacac}", ""]);
+exports.push([module.i, ".nav-footer{background:#acacac;width:100%;height:90px;color:#fff}.nav-footer a,.nav-footer span{font-size:10px;color:#fff}.nav-footer .nav-footer-content{display:grid;padding-top:10px;grid-template-columns:1fr auto 1fr;align-items:center;overflow:hidden;width:80%;margin-left:10%;margin-right:10%}.nav-footer .nav-footer-content .left-footer{width:auto;justify-self:start;margin-left:40px}.nav-footer .nav-footer-content .logo-footer img{width:100px}.nav-footer .nav-footer-content .right-footer{width:auto;justify-self:end;margin-right:40px}.nav-footer .nav-footer-content i.facebook{background-image:url(" + __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./../../assets/images/fb.png\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())) + ");width:20px}.nav-footer .nav-footer-content i.linkedin{width:20px}", ""]);
 
 // exports
 
@@ -16202,7 +16202,7 @@ exports = module.exports = __webpack_require__(0)();
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text);", ""]);
 
 // module
-exports.push([module.i, "@font-face{font-family:crossten_extrabold;src:url(" + __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"../../assets/font/Crossten-ExtraBold.ttf\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())) + ")}@font-face{font-family:crossten_extralight;src:url(" + __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"../../assets/font/Crossten-ExtraLight.ttf\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())) + ")}body{background:#fff;background-image:url(" + __webpack_require__(31) + ");box-sizing:border-box}#app .section{background:#eee;width:100%;height:700px;margin-top:0;display:flex;justify-content:center;align-items:center}#app .section h1,#app .section h2{font-family:crossten_extrabold}#app .section .text-body{font-size:16px;font-family:crossten_extralight;margin-top:7px;line-height:1.6em}#app .section .content{margin-left:10vw}#app .section .content h1{margin-top:14vh;font-size:28px;font-weigth:bolder;color:#5945f3}#app .section .content p{width:36vw;letter-spacing:2px;margin-top:10vh;font-weigth:400;font-size:10px;line-heigth:8px}#app .section .page-enter-active,#app .section .page-leave-active,#app .section .slide-left{transition:opacity 1s,transform 1s}#app .section .page-enter,#app .section .page-leave-to,#app .section .slide-right{opacity:0;transform:translateX(-30%)}#app .section .boxy{background:#5945f3;padding:5px;height:100vh;color:#fff}#app .section .boxy h2,#app .section .boxy p,#app .section .boxy span{color:#fff}#app .section .boxy-white{padding:5px;height:80vh}#app .section .boxy-grey{background:#ccc;height:60vh}#app .section .icon-box{display:grid;grid-template-columns:auto auto auto auto auto;background-color:#fff;color:#444}#app .section .icon-box .icon{text-align:center}#app .section .icon-box .icon span{font-weigth:700;font-size:10px;color:#5945f3}#app .section .double-column{display:grid;grid-template-columns:auto auto;grid-template-rows:auto}#app .section .double-column .left-column{padding:15%;justify-self:start}#app .section .double-column .left-column p{font-size:14px}#app .section .double-column .right-column{padding:15%;justify-self:end}#app .section .double-column .right-column ol li{margin-bottom:30%}#app .section .double-column .right-column ol li span:first-child{font-size:24px;font-weigth:700}#app .section .double-column .right-column ol li span:nth-child(2){margin-top:20px;font-size:8px;float:left}#app .section ol{list-style:none;counter-reset:ncon-counter}#app .section ol li{position:relative;counter-increment:ncon-counter}#app .section ol li:before{position:absolute;left:-20px;bottom:5px;content:\"0\" counter(ncon-counter) \". \";color:#fff;font-size:10px}#app .section .icon-box .icon .icon-img img{width:80px;height:70px}#app .section .text-center{text-align:center}", ""]);
+exports.push([module.i, ".slide-right{transition:opacity .5s}.slide-left{opacity:0}body{background:#fff;background-image:url(" + __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./assets/images/bg.jpg\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())) + ");box-sizing:border-box}#app .section{background:#eee;width:100%;height:700px;margin-top:0;display:flex;justify-content:center;align-items:center}.text-body{font-size:16px;margin-top:7px;line-height:1.6em}.content{margin-left:10vw}.content h1{margin-top:14vh;font-size:28px;font-weigth:bolder;color:#5945f3}.content p{width:36vw;letter-spacing:2px;margin-top:10vh;font-weigth:400;font-size:10px;line-heigth:8px}.page-enter-active,.page-leave-active,.slide-left{transition:opacity 1s,transform 1s}.page-enter,.page-leave-to,.slide-right{opacity:0;transform:translateX(-30%)}.boxy{background:#5945f3;padding:5px;height:auto}.boxy,.boxy h2,.boxy p,.boxy span{color:#fff}.boxy-white{padding:5px;height:80vh}.boxy-grey{background:#ccc;height:60vh}.icon-box{display:grid;grid-template-columns:auto auto auto auto auto;background-color:#fff;color:#444}.icon-box .icon{text-align:center}.icon-box .icon span{font-weigth:700;font-size:10px;color:#5945f3}.double-column{display:grid;grid-template-columns:auto auto;grid-template-rows:auto}.double-column .left-column{padding:15%;justify-self:start}.double-column .left-column p{font-size:14px}.double-column .right-column{padding:15%;justify-self:end}.double-column .right-column ol li{margin-bottom:30%}.double-column .right-column ol li span:first-child{font-size:24px;font-weigth:700}.double-column .right-column ol li span:nth-child(2){margin-top:20px;font-size:8px;float:left}ol{list-style:none;counter-reset:ncon-counter}ol li{position:relative;counter-increment:ncon-counter}ol li:before{position:absolute;left:-20px;bottom:5px;content:\"0\" counter(ncon-counter) \". \";color:#fff;font-size:10px}.icon-box .icon .icon-img img{width:80px;height:70px}.text-center{text-align:center}.v-leave{opacity:1}.v-leave-active{transition:opacity 2s}.v-enter,.v-leave-to{opacity:0}.v-enter-active{transition:opacity 2s}.v-enter-to{opacity:1}", ""]);
 
 // exports
 
@@ -16265,48 +16265,6 @@ exports.push([module.i, "", ""]);
 
 /***/ }),
 /* 31 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "bg.jpg?6bae3785a9643e45ca069aff40ee89f1";
-
-/***/ }),
-/* 32 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "icon-1.jpg?23f24cf1e04a70e4c2fae37f4cdfa1f5";
-
-/***/ }),
-/* 33 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "icon-2.jpg?8761bd4b78e601cfb3e4dd403f27284d";
-
-/***/ }),
-/* 34 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "icon-3.jpg?c50faa2e7c44a9fa04124bb8a27ff6ab";
-
-/***/ }),
-/* 35 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "icon-4.jpg?49645d2dda0e0d14f4625e58eb0cf26f";
-
-/***/ }),
-/* 36 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "icon-5.jpg?3075436b2fa97f427b1c55cf2d292189";
-
-/***/ }),
-/* 37 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "logo.png?c936e5ced2abcadb45be2bbd9fdfe16b";
-
-/***/ }),
-/* 38 */
 /***/ (function(module, exports) {
 
 // shim for using process in browser
@@ -16496,7 +16454,7 @@ process.umask = function() { return 0; };
 
 
 /***/ }),
-/* 39 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global, process) {(function (global, undefined) {
@@ -16686,10 +16644,10 @@ process.umask = function() { return 0; };
     attachTo.clearImmediate = clearImmediate;
 }(typeof self === "undefined" ? typeof global === "undefined" ? this : global : self));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4), __webpack_require__(38)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4), __webpack_require__(31)))
 
 /***/ }),
-/* 40 */
+/* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {var scope = (typeof global !== "undefined" && global) ||
@@ -16745,7 +16703,7 @@ exports._unrefActive = exports.active = function(item) {
 };
 
 // setimmediate attaches itself to the global object
-__webpack_require__(39);
+__webpack_require__(32);
 // On some exotic environments, it's not clear which object `setimmediate` was
 // able to install onto.  Search each possibility in the same order as the
 // `setimmediate` library.
@@ -16759,17 +16717,17 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)))
 
 /***/ }),
-/* 41 */
+/* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
 function injectStyle (ssrContext) {
-  __webpack_require__(52)
+  __webpack_require__(45)
 }
 var Component = __webpack_require__(1)(
   /* script */
   __webpack_require__(17),
   /* template */
-  __webpack_require__(44),
+  __webpack_require__(37),
   /* styles */
   injectStyle,
   /* scopeId */
@@ -16782,7 +16740,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 42 */
+/* 35 */
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -16798,7 +16756,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 },staticRenderFns: []}
 
 /***/ }),
-/* 43 */
+/* 36 */
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -16822,9 +16780,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   }, [_c('div', {
     staticClass: "double-column"
-  }, [_c('div', {
-    staticClass: "left-column"
-  }), _vm._v(" "), _c('div', {
+  }, [_vm._m(0), _vm._v(" "), _c('div', {
     staticClass: "right-column"
   }, [_c('div', {
     staticClass: "text-content text-center"
@@ -16837,11 +16793,17 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   }, [_c('div', {
     staticClass: "content"
   }, [_c('h2', [_vm._v(" " + _vm._s(_vm.$t("message.about_tab_approach_title")))]), _vm._v(" "), _c('p', [_vm._v(" " + _vm._s(_vm.$t("message.about_tab_approach")))])])])])])
-},staticRenderFns: []}
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('div', {
+    staticClass: "left-column"
+  }, [_c('div', {
+    staticClass: "avatar"
+  }, [_c('div')])])
+}]}
 
 /***/ }),
-/* 44 */
-/***/ (function(module, exports) {
+/* 37 */
+/***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _vm._m(0)
@@ -16851,12 +16813,46 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   }, [_c('div', {
     staticClass: "nav-footer-content"
   }, [_c('div', {
-    staticClass: "nav-links"
-  })])])
+    staticClass: "left-footer"
+  }, [_c('a', {
+    attrs: {
+      "href": "https://www.facebook.com"
+    }
+  }, [_c('i', {
+    staticClass: "facebook"
+  }, [_vm._v("F")])]), _vm._v(" "), _c('a', {
+    attrs: {
+      "href": "https://www.linkedin.com"
+    }
+  }, [_c('i', {
+    staticClass: "linkedin"
+  }, [_vm._v("L")])]), _c('br'), _vm._v(" "), _c('span', [_c('i', {
+    staticClass: "phone"
+  }, [_vm._v("Telefon")]), _vm._v("+47 969 78 805")]), _vm._v(" "), _c('a', {
+    attrs: {
+      "href": "mailto:contact@ncon.biz"
+    }
+  }, [_c('i', {
+    staticClass: "mail"
+  }), _vm._v("contact@ncon.biz")])]), _vm._v(" "), _c('div', {
+    staticClass: "logo-footer"
+  }, [_c('img', {
+    staticClass: "logo",
+    attrs: {
+      "src": __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./../../assets/images/footer-logo.png\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
+      "alt": "NCON Logo"
+    }
+  })]), _vm._v(" "), _c('div', {
+    staticClass: "right-footer"
+  }, [_c('a', {
+    attrs: {
+      "href": "#"
+    }
+  }, [_vm._v("Privacy policy")]), _vm._v(" "), _c('span', [_vm._v("NCON Natalia ")])])])])
 }]}
 
 /***/ }),
-/* 45 */
+/* 38 */
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -16872,7 +16868,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 },staticRenderFns: []}
 
 /***/ }),
-/* 46 */
+/* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -16883,7 +16879,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   }, [_c('img', {
     staticClass: "logo",
     attrs: {
-      "src": __webpack_require__(37),
+      "src": __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./../../assets/images/logo.png\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
       "alt": "NCON Logo"
     }
   }), _vm._v(" "), _vm._m(0), _vm._v(" "), _c('ul', {
@@ -16931,7 +16927,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 }]}
 
 /***/ }),
-/* 47 */
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -16985,7 +16981,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "icon-img"
   }, [_c('img', {
     attrs: {
-      "src": __webpack_require__(32),
+      "src": __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./../../assets/images/icon-1.jpg\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
       "alt": "icon"
     }
   })])
@@ -16994,7 +16990,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "icon-img"
   }, [_c('img', {
     attrs: {
-      "src": __webpack_require__(33),
+      "src": __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./../../assets/images/icon-2.jpg\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
       "alt": "icon"
     }
   })])
@@ -17003,7 +16999,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "icon-img"
   }, [_c('img', {
     attrs: {
-      "src": __webpack_require__(34),
+      "src": __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./../../assets/images/icon-3.jpg\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
       "alt": "icon"
     }
   })])
@@ -17012,7 +17008,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "icon-img"
   }, [_c('img', {
     attrs: {
-      "src": __webpack_require__(35),
+      "src": __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./../../assets/images/icon-4.jpg\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
       "alt": "icon"
     }
   })])
@@ -17021,14 +17017,14 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "icon-img"
   }, [_c('img', {
     attrs: {
-      "src": __webpack_require__(36),
+      "src": __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./../../assets/images/icon-5.jpg\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
       "alt": "icon"
     }
   })])
 }]}
 
 /***/ }),
-/* 48 */
+/* 41 */
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -17054,7 +17050,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 },staticRenderFns: []}
 
 /***/ }),
-/* 49 */
+/* 42 */
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -17068,7 +17064,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 },staticRenderFns: []}
 
 /***/ }),
-/* 50 */
+/* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
@@ -17081,7 +17077,7 @@ if(content.locals) module.exports = content.locals;
 var update = __webpack_require__(2)("076cdc99", content, true, {});
 
 /***/ }),
-/* 51 */
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
@@ -17094,7 +17090,7 @@ if(content.locals) module.exports = content.locals;
 var update = __webpack_require__(2)("69482ca1", content, true, {});
 
 /***/ }),
-/* 52 */
+/* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
@@ -17107,7 +17103,7 @@ if(content.locals) module.exports = content.locals;
 var update = __webpack_require__(2)("27d70def", content, true, {});
 
 /***/ }),
-/* 53 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
@@ -17120,7 +17116,7 @@ if(content.locals) module.exports = content.locals;
 var update = __webpack_require__(2)("40410520", content, true, {});
 
 /***/ }),
-/* 54 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
@@ -17133,7 +17129,7 @@ if(content.locals) module.exports = content.locals;
 var update = __webpack_require__(2)("05f673d5", content, true, {});
 
 /***/ }),
-/* 55 */
+/* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
@@ -17146,7 +17142,7 @@ if(content.locals) module.exports = content.locals;
 var update = __webpack_require__(2)("4e425778", content, true, {});
 
 /***/ }),
-/* 56 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
@@ -17159,7 +17155,7 @@ if(content.locals) module.exports = content.locals;
 var update = __webpack_require__(2)("2d48ec22", content, true, {});
 
 /***/ }),
-/* 57 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
@@ -17172,7 +17168,7 @@ if(content.locals) module.exports = content.locals;
 var update = __webpack_require__(2)("1cb7ca80", content, true, {});
 
 /***/ }),
-/* 58 */
+/* 51 */
 /***/ (function(module, exports) {
 
 /**
@@ -17205,7 +17201,7 @@ module.exports = function listToStyles (parentId, list) {
 
 
 /***/ }),
-/* 59 */
+/* 52 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

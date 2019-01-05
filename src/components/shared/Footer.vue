@@ -2,16 +2,18 @@
   <div class="nav-footer">
     <div class="nav-footer-content">
       <div class="left-footer">
-        <a href="https://www.facebook.com">F</a>
-        <a href="https://www.linkedin.com">L</a><br/>
-        <span><i>Telefon</i>+47 969 78 805</span>
-        <a href="mailto:contact@ncon.biz">mailto:contact@ncon.biz</a>
+        <a href="https://www.facebook.com"><i class="icon facebook">F</i></a>
+        <a href="https://www.linkedin.com"><i class="icon linkedin">L</i></a><br/>
+        <span><i class="phone">Telefon</i>+47 969 78 805</span>
+        <a href="mailto:contact@ncon.biz"><i class="mail"></i>contact@ncon.biz</a>
       </div>
       <div class="logo-footer">
-        <img src="./../../assets/images/logo.png" class="logo" alt="NCON Logo">
+        <img src="./../../assets/images/footer-logo.png" class="logo" alt="NCON Logo">
       </div>
       <div class="right-footer">
-        <a href="#">Privacy policy</a>
+        <router-link :to="'/en/privacy-policy'">
+            {{ $t("message.privacy_policy") }}
+            </router-link>
         <span>NCON Natalia </span>
       </div>
       
@@ -26,10 +28,10 @@
   background: #ACACAC
   width: 100%
   height: 90px
-  color: #fff
+  color: #FFF
   span, a
     font-size: 10px;
-    color: #fff
+    color: #FFF  
   .nav-footer-content
     display: grid
     padding-top: 10px
@@ -49,5 +51,11 @@
       width: auto
       justify-self: end
       margin-right: 40px
-    .logo
+    .icon
+      width: 18px
+      height: 18px
+    .facebook
+      // background-image: url('./../../assets/images/fb.png')
+    .linkedin
+      // background: url('../../../assets/images/in.png')
 </style>

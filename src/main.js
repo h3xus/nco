@@ -17,6 +17,7 @@ import About from './pages/About/About.vue'
 import Projects from './pages/Projects/Projects.vue'
 import Joinus from './pages/Joinus/Joinus.vue'
 import Contactus from './pages/Contactus/Contactus.vue'
+import Policy from './pages/Policy.vue'
 
 const messages = {
   en: {
@@ -58,6 +59,11 @@ const router = new VueRouter({
       path: '/en/contact-us',
       name: 'en.contactus',
       component: Contactus
+    },
+    {
+      path: '/en/privacy-policy',
+      name: 'en.privacypolicy',
+      component: Policy
     },
     {
       path: '/*',

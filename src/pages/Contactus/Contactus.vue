@@ -2,8 +2,7 @@
   <div class="page-body">
     <div class="content register">
       <div class="content-title rgb-57-57-57">{{ $t("message.contact_tab_title") }}</div>
-      <div class="section">
-      </div>    
+      <contact-component></contact-component>
     </div>
   </div>
 </template>

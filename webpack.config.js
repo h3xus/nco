@@ -31,7 +31,6 @@ module.exports = {
           name: '[name].[ext]?[hash]'
         }
       },
-      // 在 webpack config 要多做這條設定，否則 ttf 字型檔會無法分析
       {
         test: /\.(ttf|eot|woff(2)?)(\?[a-z0-9=&.]+)?$/,
         loader: 'file-loader'

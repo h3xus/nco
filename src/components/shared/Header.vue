@@ -1,7 +1,9 @@
 <template lang="html">
 <div class="header">
   <nav class="navbar">
-    <img src="./../../assets/images/logo.png" class="logo" alt="NCON Logo">
+    <router-link :to="'/' + switchLanguage + '/'">          
+      <img src="./../../assets/images/logo.png" class="logo" alt="NCON Logo">
+    </router-link>
     <div class="menu-toggle" id="mobile-menu">
       <span class="bar"></span>
       <span class="bar"></span>
@@ -51,7 +53,7 @@
   align-items: center
   overflow: hidden
   width: 100%
-.navbar img 
+.navbar a img 
   height: 25px
   width: auto
   justify-self: start
@@ -74,6 +76,8 @@
 .nav-item a:hover 
   color: #3498db
 /* HAMBURGER MENU & ANIMATION */
+.nav-item .router-link-active
+  color: #5A46F3
 .menu-toggle .bar
   width: 25px
   height: 3px

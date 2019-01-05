@@ -24,14 +24,9 @@ export default {
       this.scrollPosition = window.scrollY
       // console.log(this.scrollPosition)
       if (this.scrollPosition > 100) {
-        // window.select
         document.querySelector(".navbar").classList.add("scrolling")
-        // $('#app .box').addClass('scrollActive')
-        // $('#app .box').removeClass('scrollInActive')
       } else {
         document.querySelector(".navbar").classList.remove("scrolling")
-        // $('#app .box').removeClass('scrollActive')
-        // $('#app .box').addClass('scrollInActive')
       }
     }
   }

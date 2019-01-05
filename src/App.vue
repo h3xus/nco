@@ -5,12 +5,15 @@
       <router-view></router-view>
     </transition>
     <footer-component></footer-component>
+    <cookies-notification></cookies-notification>
   </div>
 </template>
 
 <script>
 import HeaderComponent from './components/shared/Header.vue'
 import FooterComponent from './components/shared/Footer.vue'
+import ContactComponent from './components/forms/Contact.vue'
+import CookiesNotification from './components/shared/CookiesNotification.vue'
 
 export default {
   name: 'app',
@@ -28,7 +31,9 @@ export default {
   // },
   components: {
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    ContactComponent,
+    CookiesNotification
   }
 }
 </script>
@@ -37,9 +42,11 @@ export default {
 
 .slide-right 
   transition: opacity .5s
+  left: 0
 
 .slide-left
   opacity: 0
+  left: -100px
 
 @import url('https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text')
 
@@ -56,7 +63,10 @@ body
   background: #fff
   background-image: url('./assets/images/bg.jpg')
   box-sizing: border-box
-  
+
+input, textarea
+  font-face: crossten_extralight
+
 #app .section 
   background: #eeeeee
   width: 100%
@@ -68,7 +78,8 @@ body
 
 // h1, h2
   // font-face: crossten_extrabold
-
+p
+  font-size: 10px
 .text-center
   text-align: center
 
