@@ -1,7 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import VueI18n from 'vue-i18n'
+import Vuetify from 'vuetify'
 
+Vue.use(Vuetify)
 Vue.use(VueRouter)
 Vue.use(VueI18n)
 

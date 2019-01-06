@@ -2,17 +2,17 @@
     <div class="container">
       <!-- container 1 -->
       <div class="row">
-        <div class="col-xs-12 col-md-8 boxy-white">
+        <div class="col-6 boxy-white">
           <div class="content">
             <h1>{{ $t("message.about_tab_title") }}</h1>
             <p>{{ $t("message.about_tab_content") }}</p>
           </div>
         </div>
-        <div class="col-xs-6 col-md-4"></div>
+        <div class="col-6 col-md-4"></div>
       </div>
       <!-- section 2 -->
       <div class="row">
-        <div class="col-xs-12 col-md-9 boxy">
+        <div class="col-10 boxy">
           <div class="double-column">  
               <div class="left-column">
                 <h2>{{ $t("message.about_tab_values") }}</h2>
@@ -33,14 +33,14 @@
                       <span class="">{{ $t("message.about_tab_point3") }}</span>
                   </li>
                 </ol>
-              </div>
-          </div>    
+              </div>            
+        </div>    
         </div>
-        <div class="col-xs-6 col-md-5"></div>
+        <!-- <div class="col-6 col-md-5"></div> -->
       </div>
       <!-- section 3 -->
       <div class="row">
-        <div class="col-xs-12 col-md-12 boxy-grey ">
+        <div class="col-10 boxy-grey ">
           <div class="content">
             <h2> {{$t("message.about_tab_approach_title")}}</h2> 
             <p> {{$t("message.about_tab_approach")}}</p>
@@ -49,7 +49,7 @@
       </div>
       <!-- section 4 -->
       <div class="row">
-        <div class="col-xs-12 col-md-12 boxy-white">
+        <div class="col-12 boxy-white">
           <div class="icon-box">
             <div class="icon-1 icon">
               <div class="icon-img">
@@ -85,5 +85,8 @@
 <script src='./about-page.js'></script>
 
 <style lang="sass" scoped>
-
+.relative-box
+  position: relative
+.absolute-box
+  position: absolute
 </style>

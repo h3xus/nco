@@ -14,6 +14,7 @@ import HeaderComponent from './components/shared/Header.vue'
 import FooterComponent from './components/shared/Footer.vue'
 import ContactComponent from './components/forms/Contact.vue'
 import CookiesNotification from './components/shared/CookiesNotification.vue'
+import RoundButton from './components/elements/RoundButton.vue'
 
 export default {
   name: 'app',
@@ -33,40 +34,33 @@ export default {
     HeaderComponent,
     FooterComponent,
     ContactComponent,
-    CookiesNotification
+    CookiesNotification,    
+    RoundButton
   }
 }
 </script>
 
 <style lang="sass">
-
 .slide-right 
   transition: opacity .5s
   left: 0
-
 .slide-left
   opacity: 0
   left: -100px
-
 @import url('https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text')
-
 // @font-face
 //   font-family: crossten_extrabold
 //   src: url("./../../assets/font/Crossten-ExtraBold.ttf")
-
-
 // @font-face
 //   font-family: crossten_extralight
 //   src: url("./../../assets/font/Crossten-ExtraLight.ttf")
-
 body
   background: #fff
   background-image: url('./assets/images/bg.jpg')
+  background-size: cover
   box-sizing: border-box
-
 input, textarea
   font-face: crossten_extralight
-
 #app .section 
   background: #eeeeee
   width: 100%
@@ -75,32 +69,31 @@ input, textarea
   display: flex
   justify-content: center
   align-items: center
-
 // h1, h2
   // font-face: crossten_extrabold
 p
   font-size: 10px
 .text-center
   text-align: center
-
 .text-body
   font-size: 16px
   // font-face: crossten_extralight
   margin-top: 7px
   line-height: 1.6em
-.content
-  margin-left: 10vw
-.content h1
-  margin-top: 14vh
-  font-size: 28px
-  font-weigth: bolder
-  color: #5945F3
-.content p
-  width: 36vw
-  letter-spacing: 2px    
-  margin-top: 10vh
-  font-weigth: 400
-  font-size: 10px
+// .content
+//   margin-left: 2vw
+// .content h1
+//   margin-top: 14vh
+//   font-size: 28px
+//   font-weigth: bolder
+//   color: #5945F3
+// .content p
+//   width: auto
+//   word-break: break-word
+//   letter-spacing: 2px    
+//   margin-top: 10vh
+//   font-weigth: 400
+//   font-size: 10px
   line-heigth: 8px
 .page-enter-active, .page-leave-active, .slide-left 
   transition: opacity 1s, transform 1s
@@ -171,7 +164,6 @@ ol li::before
   height: 70px
 .text-center
   text-align: center
-
 .v-leave  
   opacity: 1
 .v-leave-active  

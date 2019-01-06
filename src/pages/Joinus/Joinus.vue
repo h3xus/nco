@@ -1,5 +1,20 @@
 <template lang="html">
-  <div class="page-body">
+<div class="container"> 
+  <div class="content">
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dolor ligula, aliquet et nunc vel, fringilla vulputate enim. Aenean fringilla imperdiet quam, non lobortis lectus mattis tristique. Quisque dapibus mi eget ipsum egestas porttitor ac nec sem. Nulla facilisi. Donec faucibus tristique ipsum, sed facilisis velit porttitor ac. Nam porta nisi dolor, sit amet lacinia velit volutpat eu. In ultricies convallis nisl nec ullamcorper. Fusce dui tellus, pellentesque vitae auctor at, tincidunt ac sem. Integer et eros quis mauris posuere hendrerit et eget ligula. Sed ex odio, ultrices eu pretium eget, auctor id sem. Proin vitae sagittis justo. Curabitur congue turpis ante, non fermentum neque tincidunt eget. Vestibulum luctus eget arcu quis laoreet. Nam in velit ac diam facilisis rutrum vel nec mauris. Duis et tellus quis sem viverra pulvinar euismod sit amet tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
+Phasellus in magna neque. Nulla eget porttitor nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu tempor nibh. Etiam dapibus sit amet risus et consequat. Fusce consequat neque felis, in viverra augue blandit id. In nec eros vitae lacus pellentesque hendrerit a at ante. Cras non porta dui, non porttitor libero. Duis sit amet mauris vel erat molestie faucibus at eget odio. Vestibulum mollis malesuada risus eget dapibus. Sed pretium velit et magna euismod rutrum. Vivamus a dui quis tellus dictum consequat. Maecenas ac interdum arcu, ac euismod dolor. Suspendisse vestibulum lacus non libero hendrerit scelerisque. In lacinia sollicitudin libero, iaculis molestie metus pharetra at.
+
+In sed tristique sapien. Praesent gravida mauris nunc, sed maximus eros vehicula a. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam feugiat sapien vel mi scelerisque, at consequat tortor dictum. Sed feugiat sit amet turpis sit amet ultrices. In tristique aliquam sapien ac porta. Vestibulum nunc nunc, vestibulum a est at, pulvinar ullamcorper massa. Morbi at justo diam. Nam consequat efficitur ipsum, ut gravida velit sollicitudin sed. Nam scelerisque non dolor et facilisis. Integer ligula tortor, venenatis in varius vitae, vehicula nec erat. Curabitur libero ipsum, pharetra eu eros ut, vestibulum condimentum libero. Vivamus imperdiet vehicula lectus, et viverra enim rutrum id. Aliquam rutrum eros vitae nibh cursus tincidunt. Curabitur quis risus nisi. Mauris at est ante.
+    </p>
+    <div class="alter-content">
+      <p>
+        lorem dasasd sad sad 
+      </p>
+    </div>
+  </div>
+  <!-- <div class="page-body">
     <div class="content register">
       <div class="content-title rgb-57-57-57">{{ $t("message.joinus_tab_title") }}</div>
       <div class="section">
@@ -11,165 +26,31 @@
         <div class="divider-horizontal"></div>
       </div>
     </div>
-    </div>
+    </div> -->
+</div>
 </template>
 
 <script src='./joinus-page.js'></script>
 
 <style lang="sass" scoped>
-.section
-  margin-top: 0px
-
-.section-description
-  width: 100%
-  font-size: 17px
-
-.nav-footer
-  border-top: 2px solid #eee
-
 .content
-  width: 56%
-  border: 1px solid transparent
+  position: relative
+  width: 50vw
+  // border: 1px solid red
+  background: #8354f0
   margin-top: 5%
-
-.page-body
-  background-color: #FFFFFF
-  padding-top: 0px
-  padding-bottom: 0px
-
-.about-content-title
-  font-size: 19px
-  font-family: notoSans_semibold
-
-  &.nutrition
-    color: #3FB0E5
-  &.dietary-sensitivities
-    color: #679C41
-  &.fitness
-    color: #A11D52
-
-.about-content-layouts
-  display: flex
-  margin-bottom: 6%
-
-  .about-content-layout
-    width: 50%
-    display: flex
-    flex-wrap: wrap
-
-    .about-content-layout-card
-      display: flex
-      justify-content: space-between
-      align-items: center
-      width: 100%
-      margin: 4% 0px
-
-      .about-content-text
-        // width: 83%
-        flex: 1 1 auto
-        padding-left: 2%
-
-        p:nth-child(10n+1)
-          font-size: 16px
-          font-family: notoSans_bold
-
-        p:nth-child(10n+2)
-          font-size: 14px
-          font-family: notoSans_light
-          width: 90%
-
-      .about-content-img
-        display: flex
-        width: 60px
-        min-width: 60px
-        height: 60px
-        border-radius: 50%
-        justify-content: center
-        align-items: center
-        border: 1px solid transparent
-
-        // Nutrition Part
-        &.vit-a
-          background-color: #9bb433
-        &.vit-b2
-          background-color: #908980
-        &.vit-c
-          background-color: #8CABB2
-        &.vit-d
-          background-color: #78BDE2
-        &.vit-e
-          background-color: #939A72
-        &.folic-acid
-          background-color: #BCA772
-        &.iron
-          background-color: #755B5C
-        &.calcium
-          background-color: #684BA3
-
-        // Dietary Sensitivities
-        &.alcohol
-          background-color: #BC9FAD
-        &.salt
-          background-color: #B9BAE6
-        &.carbohydrate
-          background-color: #83674B
-        &.super-taster
-          background-color: #936060
-        &.fat
-          background-color: #908070
-        &.sweet-tooth
-          background-color: #94A1A8
-
-        // Fitness
-        &.aerobic
-          background-color: #FFEC4A
-        &.metabolic
-          background-color: #BFB1A9
-        &.body
-          background-color: #9FA393
-        &.obesity
-          background-color: #A88A8A
-        &.weight-loss
-          background-color: #E6F5BD
-        &.recovery
-          background-color: #A4AAB4
-        &.bloodflow
-          background-color: #BF928C
-        &.endurance
-          background-color: #BFB1A9
-        &.oxygen
-          background-color: #CEB7A5
-        &.power
-          background-color: #8BC1BD
-
-        img
-          width: 40px
-
-// 加上框線，debug 用途
-.section.about-fitlife
+  margin-bottom: 10%
+  min-height: 400px
+  color: #fff
+  padding: 4vw 2vw
+  p
+    color: #fff
+.alter-content
+  position: absolute
+  left: 4%
+  top: 80%
+  width: 56vw
+  // border: 1px solid red
   margin-top: 5%
-//   *
-//     border: 1px solid #333
-
-
-// Tablet version on Desktop
-@media (min-width: 768px) and (max-width: 1024px)
-  .content
-    width: 75%
-
-// Mobile version on Desktop
-@media (max-width: 767px)
-  .content
-    width: 100%
-    margin-top: 10%
-
-  .section-title
-    width: 100%
-
-  .about-content-layouts
-    display: block
-
-    .about-content-layout
-      width: 100%
-
+  background: #ccc
 </style>

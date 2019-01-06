@@ -9,31 +9,43 @@
             </p>
         </div>
         <div class="cookie-buttons">
-            <button v-on:click="checkForCookies">Accept</button>
-            <button>Cancel</button>
+            <round-button buttonName="Accept" v-on:click="this.approveCookies"></round-button>
+            <round-button buttonName="Cancel" v-on:click="this.approveCookies"></round-button>
+            <!-- <button v-on:click="approveCookies">Accept</button> -->
         </div>
     </div>
 </template>
 
 <script>
+import RoundButton from './../elements/RoundButton.vue'
+
 export default {
     data () {
         return {
+            approval: 0,
             cookies: 1
         }
     },
     created () {
-                this.$cookie.set("keyName", keyValue, "expiring time")
+                // this.$cookie.set("keyName", keyValue, "expiring time")
+                
     },
     mounted () {
     },
     methods: {
         checkForCookies: function () {
-            this.cookies = 0
+            if( localStorage.getItem('NCON-cookies-approve') == 0){
+                this.approval = 1;
+            }
+            // localStorage.setItem('NCON-cookies-approve', 0);
         },
         approveCookies: function() {
-             this.cookies = 0
+             this.cookies = 0;
+             localStorage.setItem('NCON-cookies-approve', 0);
         }
+    },
+    components: {
+        RoundButton
     }
 }
 </script>
