@@ -1,8 +1,12 @@
 <template lang="html">
   <div class="container"> 
-    <div class="content">
-      <div class="content-title rgb-57-57-57">{{ $t("message.contact_tab_title") }}</div>
-      <contact-component class="alter-content"></contact-component>
+        <div class="row">
+          <div class="col-8">
+            <div class="content">
+              <div class="content-title rgb-57-57-57">{{ $t("message.contact_tab_title") }}</div>
+              <contact-component class="alter-content"></contact-component>
+            </div>
+        </div>
     </div>
   </div>
 </template>
@@ -13,11 +17,10 @@
 .content
   position: relative
   width: 50vw
-  // border: 1px solid red
   background: #5A46F3
   margin-top: 5%
   margin-bottom: 10%
-  min-height: 400px
+  min-height: 300px
   color: #fff
   padding: 4vw 2vw
   p

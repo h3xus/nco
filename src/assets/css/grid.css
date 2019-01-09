@@ -12,9 +12,7 @@ body {
 }
 
 /* ROOT FONT STYLES */
-
 * {
-  /* font-family: 'Lato', Helvetica, sans-serif; */
   font-family: 'Crossten-ExtraLight';
   color: #333447;
   line-height: 1;

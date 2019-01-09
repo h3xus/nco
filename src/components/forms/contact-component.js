@@ -1,4 +1,6 @@
 import RoundButton from './../elements/RoundButton.vue'
+import MaterialInput from './../elements/Input.vue'
+import MaterialTextarea from './../elements/Textarea.vue'
 
 export default {
     data() {
@@ -12,6 +14,8 @@ export default {
         }
     },
     components: {
-        RoundButton
+        RoundButton,
+        MaterialInput,
+        MaterialTextarea
     }
 }

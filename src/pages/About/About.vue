@@ -8,7 +8,6 @@
             <p>{{ $t("message.about_tab_content") }}</p>
           </div>
         </div>
-        <div class="col-6 col-md-4"></div>
       </div>
       <!-- section 2 -->
       <div class="row">
@@ -50,33 +49,7 @@
       <!-- section 4 -->
       <div class="row">
         <div class="col-12 boxy-white">
-          <div class="icon-box">
-            <div class="icon-1 icon">
-              <div class="icon-img">
-                <img src="./../../assets/images/icon-1.jpg" alt="icon">
-              </div>
-              <span>{{ $t("message.about_tab_icon1") }}</span></div>
-            <div class="icon-2 icon">
-              <div class="icon-img">
-                <img src="./../../assets/images/icon-2.jpg" alt="icon">
-              </div>
-              <span>{{ $t("message.about_tab_icon2") }}</span></div>
-            <div class="icon-3 icon">
-              <div class="icon-img">
-                <img src="./../../assets/images/icon-3.jpg" alt="icon">
-              </div>
-              <span>{{ $t("message.about_tab_icon3") }}</span></div>
-            <div class="icon-4 icon">
-              <div class="icon-img">
-                <img src="./../../assets/images/icon-4.jpg" alt="icon">
-              </div>
-              <span>{{ $t("message.about_tab_icon4") }}</span></div>
-            <div class="icon-5 icon">
-              <div class="icon-img">
-                <img src="./../../assets/images/icon-5.jpg" alt="icon">
-              </div>
-              <span>{{ $t("message.about_tab_icon5") }}</span></div>
-          </div>  
+            <!-- diagram -->
         </div>
       </div>
     </div>

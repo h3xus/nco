@@ -1,14 +1,14 @@
 
 @font-face {
   font-family: 'Crossten-ExtraLight';
-  src: url('./../font/Crossten-ExtraLight.eot') format('opentype');
+  src: url('./../font/Crossten-ExtraLight.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Crossten-ExtraLight';
-  src:  url('./../font/Crossten-ExtraLight.otf')  format('opentype');
+  font-family: 'Crossten-ExtraBold';
+  src: url('./../font/Crossten-ExtraBold.otf') format('opentype');
 	font-style: light;
 }
 

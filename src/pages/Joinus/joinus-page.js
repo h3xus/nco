@@ -1,6 +1,3 @@
-import HeaderComponent from '../../components/shared/Header.vue'
 export default {
-  components: {
-    HeaderComponent
-  }
+    name: "Join us"
 }

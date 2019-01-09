@@ -1,25 +1,33 @@
 <template>
-<button class="round-button" :buttonName=buttonName>{{buttonName}}</button>
+<button class="round-button" :class="classes" :id="id"  @click="$emit('action')">{{buttonName}}</button>
 </template>
 
 <script>
 
 export default {
+    name: "RoundButton",
     data() {
         return {
             message: {}        
         }
     },
+    methods: {
+        callMethod(){
+          
+        }
+    },
     props: {
+        id: {
+            type: String
+        },
         buttonName: {
             type: String         
         },
-        buttonFunc: {
-
+        action: {
+            type: Function    
         },
-         onClick: {
-            type: Function,
-            required: true
+        classes: {
+            type: String         
         }
     }
 }
@@ -29,14 +37,24 @@ export default {
 <style lang="sass" scoped>
 // 😂
 //
-.round-button
+.round-button, button
+    font-family: 'Crossten-ExtraLight'
     width: auto
     background: transparent
-    border: 1px solid #000
+    border: 0
     border-radius: 2em
-.normal-button
     padding: 0.2em 1em;
-.large-button
+    &:hover
+        cursor: pointer
+    
+.normal
+    padding: 0.3em 1em;
+.large
     padding: 1em 2em    
-
+.red
+    background: red
+    color: #fff
+.indigo
+    background: #2DB4FD
+    color: #fff
 </style>

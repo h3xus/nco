@@ -1,5 +1,8 @@
-import HeaderComponent from '../../components/shared/Header.vue'
+// import HeaderComponent from '../../components/shared/Header.vue'
+import Slick from 'vue-slick'
+
 export default {
+  name: "Previous projects",
   data() {
       return {
         items: [
@@ -17,6 +20,7 @@ export default {
         }
   },
   components: {
-    HeaderComponent 
+    // HeaderComponent,
+    Slick
   }
 }

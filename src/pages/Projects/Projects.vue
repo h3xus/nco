@@ -2,7 +2,7 @@
     <div class="container">
       <!-- container 1 -->
       <div class="row">
-        <div class="col-xs-12 col-md-8 boxy-white">
+        <div class="col-8 boxy-white">
           <div class="content">
             <h1>{{ $t("message.projects_tab_title") }}</h1>
             <p>{{ $t("message.projects_tab_subtitle") }}</p>
@@ -12,7 +12,7 @@
       </div>
       <!-- section 2 -->
       <div class="row">
-        <div class="col-xs-12 col-md-9 boxy">
+        <div class="col-9 boxy">
           <ul id="projects">
             <!-- <li v-repeat="item in items" > -->
               <div class="double-column">  
@@ -51,9 +51,5 @@
 <script src='./projects-page.js'></script>
 
 <style lang="sass" scoped>
-.avatar
-  width: 90px
-  height: 90px
-  background: #ccc
-  border-radius: 80px
+@import './projects-style.sass'
 </style>

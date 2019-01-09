@@ -1,6 +1,7 @@
-import HeaderComponent from '../../components/shared/Header.vue'
+import RoundButton from '../../components/elements/RoundButton.vue'
+
 export default {
   components: {
-    HeaderComponent
+    RoundButton
   }
 }

@@ -1,34 +1,37 @@
 <template>
-    <div class="cookies-approvment" v-if="cookies">
-        <div class="cookie-approvment-content">
-            <p>We use cookies to offer you a better experience and to analyze site traffic. By continuing to browse this site, you agree to this use of cookies.</p>
-            <p>
-            <router-link :to="'/en/privacy-policy'">
-            {{ $t("message.privacy_policy") }}
-            </router-link>
-            </p>
-        </div>
-        <div class="cookie-buttons">
-            <round-button buttonName="Accept" v-on:click="this.approveCookies"></round-button>
-            <round-button buttonName="Cancel" v-on:click="this.approveCookies"></round-button>
-            <!-- <button v-on:click="approveCookies">Accept</button> -->
-        </div>
+    <div class="cookies-approvment grid-container" v-if="cookies">
+            <div>
+                <img width="100px" :src="image" alt="">
+            </div>  
+            <div class="cookie-approvment-content">
+                <p>We use cookies to offer you a better experience and to analyze site traffic. By continuing to browse this site, you agree to this use of cookies.</p>
+                <p>
+                <router-link :to="'/en/privacy-policy'">
+                {{ $t("message.privacy_policy") }}
+                </router-link>
+                </p>
+                <div class="cookie-buttons">
+                    <round-button classes="indigo" buttonName="Accept" @action="approveCookies"></round-button>
+                    <round-button classes="red" buttonName="Cancel" @action="approveCookies"></round-button>
+                    <!-- <button v-on:click="approveCookies">Accept</button> -->
+                </div>
+            </div>                  
     </div>
 </template>
 
 <script>
 import RoundButton from './../elements/RoundButton.vue'
-
+import cookieSVG from './../../assets/images/cookies-couple-svgrepo-com.svg'
 export default {
     data () {
         return {
             approval: 0,
-            cookies: 1
+            cookies: 1,
+            image: cookieSVG
         }
     },
     created () {
-                // this.$cookie.set("keyName", keyValue, "expiring time")
-                
+                // this.$cookie.set("keyName", keyValue, "expiring time")                
     },
     mounted () {
     },
@@ -58,11 +61,16 @@ export default {
     height: 120px
     background-color: #fff
     color: #000
-    border-top: 2px solid #000
+    border-top: 1px solid #ccc
     padding: 1em
     .cookie-approvment-content p
         font-size: 10px
     .cookie-approvment-content button
         border-radius: 10px
-        
+.grid-container 
+  display: grid
+  align-content: space-evenly
+  grid-template-columns: 0.2fr 1.8fr 0.5fr
+  grid-template-rows: 1fr
+  grid-column-gap: 1em;
 </style>
