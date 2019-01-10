@@ -1,0 +1,78 @@
+body, #app{
+  background: #fff;
+  height: 100%;}
+.navbar {
+  background: #fff; 
+} 
+.boxtop {
+  display: none;
+}
+.section {
+  height: 100vh;
+  width: auto;
+  background: #fff;
+  position: relative;
+  display: grid;
+  align-content: center;
+  .container{
+    display: grid;
+    align-items: center;
+    height: inherit;
+  }
+  &.results{
+    background: #5A46F3;
+    h2, h3 {
+      color: #fff;
+    }
+  }
+  &.video-section {
+    height: 110vh;
+  }
+  &.hero {
+    background: url('./../../assets/images/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    padding: 6em 0;
+    h1, h2 {
+      color: #fff;
+    }
+    .container {
+      display: grid;
+      align-items: normal;
+      align-content: end;
+    }
+    &::after {
+      position: absolute;
+      left: 50%;
+      bottom: 3em;
+      content: "#";
+      z-index: 2;
+      content: url(./../../assets/images/arrow.png);
+      color: #fff;
+      -moz-animation: bounce 3s infinite;
+      -webkit-animation: bounce 3s infinite;
+      animation: bounce 3s infinite;
+    }
+  }
+}
+.grid-wrapper {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+#fullpage + .nav-footer {
+  // border: 2px dashed red;
+  position: fixed;
+  bottom: 0;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0); } 
+  40% {
+    transform: translateY(-30px); } 
+  60% {
+    transform: translateY(-15px); }
+}

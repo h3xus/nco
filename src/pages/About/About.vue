@@ -57,9 +57,6 @@
 
 <script src='./about-page.js'></script>
 
-<style lang="sass" scoped>
-.relative-box
-  position: relative
-.absolute-box
-  position: absolute
+<style lang="scss" scoped>
+@import '/about-style.scss'
 </style>

@@ -3,7 +3,7 @@
     <div class="content-box">
         <h2>Privacy policy</h2>
         <h3>Who we are</h3>
-        <p>Our website address is: https://ncon.biz
+        <p>Our website address is: <a href="https://ncon.biz">www.ncon.biz</a>
         What personal data we collect and why we collect it</p>
         <h3>Comments</h3>
         <p>When visitors leave comments on the site we collect the data shown in the comments form, and also the visitor’s IP address and browser user agent string to help spam detection.

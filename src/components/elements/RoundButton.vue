@@ -34,27 +34,31 @@ export default {
 
 </script>
 
-<style lang="sass" scoped>
+<style lang="scss" scoped>
 // 😂
 //
-.round-button, button
-    font-family: 'Crossten-ExtraLight'
-    width: auto
-    background: transparent
-    border: 0
-    border-radius: 2em
+.round-button {
+    font-family: 'Crossten-ExtraLight';
+    width: auto;
+    background: transparent;
+    border: 0;
+    border-radius: 2em;
     padding: 0.2em 1em;
-    &:hover
-        cursor: pointer
-    
-.normal
-    padding: 0.3em 1em;
-.large
-    padding: 1em 2em    
-.red
-    background: red
-    color: #fff
-.indigo
-    background: #2DB4FD
-    color: #fff
+    &:hover{
+        cursor: pointer;}
+    &.normal {
+        padding: 0.3em 1em;}
+    &.large{
+            padding: 1em 2em;}
+    &.red{
+            background: red;
+            color: #fff;}
+    &.indigo{
+            background: #2DB4FD;
+            color: #fff;}
+    &.secbtn{
+            width: 10em;}
+    &.center{
+            margin: 0 auto;}
+}    
 </style>

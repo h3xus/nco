@@ -1,50 +1,57 @@
 <template lang="html">
-  <div id="scroll-play">
-    <section class="section hero">
+  <full-page ref="fullpage" :options="options" id="fullpage">
+    <div class="section hero">
       <div class="container"> 
         <h1>{{ $t("message.home_tab_hero_title1") }}<br>{{ $t("message.home_tab_hero_title2") }}</h1>
-        <round-button classes="large indigo" buttonName="Read more" @action=""></round-button>
+        <!-- <button class="next" @click="">Next</button> -->
+        <round-button classes="large indigo secbtn" buttonName="Read more" @action="$refs.fullpage.api.moveSectionDown()"></round-button>
       </div>
-    </section>
-    <section class="section">
+    </div>
+    <div class="section">
         <div class="container"> 
           <div>
             <h2>{{ $t("message.home_tab_section1_title1") }}</h2>
             <h2>{{ $t("message.home_tab_section1_title2") }}</h2>
-            <p>{{ $t("message.home_tab_section1_description") }}</p>
+            <h5>{{ $t("message.home_tab_section1_description") }}</h5>
           </div>
           <about-diagram></about-diagram>
+          <round-button classes="large indigo secbtn center" buttonName="Read more" @action="$refs.fullpage.api.moveSectionDown()"></round-button>
       </div>
-    </section>
-    <section class="section">
+    </div>
+    <div class="section">
       <div class="container"> 
         <div>
           <h2>{{ $t("message.home_tab_section2_title") }}</h2>
         </div>
         <expertise-diagram></expertise-diagram>
+        <round-button classes="large indigo secbtn center" buttonName="Read more" @action="$refs.fullpage.api.moveSectionDown()"></round-button>
       </div>
-    </section>
-    <section class="section">
+    </div>
+    <div class="section results">
       <div class="container"> 
-        <div>
-          <h2>{{ $t("message.home_tab_section3_title") }}</h2>
-          <h3>{{ $t("message.home_tab_section3_description") }}</h3>
-        </div>
-        <div>
+        <div class="double-column">
+          <div>
+            <h2>{{ $t("message.home_tab_section3_title") }}</h2>
+            <round-button classes="large indigo secbtn center" buttonName="Read more" @action="$refs.fullpage.api.moveSectionDown()"></round-button>
+          </div>
+          <div>
+            <h3>{{ $t("message.home_tab_section3_description") }}</h3>
+            <results-diagram></results-diagram>
+          </div>
         </div>
       </div>
-    </section>
-    <section class="section video-section">
+    </div>
+    <div class="section video-section">
         <h2 class="center">{{ $t("message.home_tab_section4_title") }}</h2>
-        <div class="grid-wrapper"> 
+        <div class="container"> 
           <youtube-video></youtube-video>
         </div>
-    </section>
-  </div>
+    </div>
+  </full-page>
 </template>
 
 <script src='./home-page.js'></script>
 
-<style lang="sass" scoped>
-@import './home-style.sass'
+<style lang="scss" scoped>
+@import '/home-style.scss'
 </style>

@@ -51,27 +51,23 @@ $material-textInputPaddingTopBottom: 5px;
   display:block;
   color:$material-form-label;
   padding:$material-labelOffset 0 10px 0;
-
   &::after{
     content:"\00A0";
     display:block;
     color: $material-form-field-invalid-foreground;
     font-size:12px;
-    padding-top:5px;
-  }
-
+    padding-top:5px; }
   .material-form-field-label{
     position:absolute;
     display:block;
+    color: $material-form-label;
     top: $material-labelOffset + $material-textInputPaddingTopBottom;
     left: 0px;
     transition:0.2s ease all; 
     -moz-transition:0.2s ease all; 
     -webkit-transition:0.2s ease all;
     pointer-events:none;
-    cursor:text;
-  }
-
+    cursor:text; }
   input{
     padding:$material-textInputPaddingTopBottom 0 $material-textInputPaddingTopBottom 0;
     display:block;
@@ -85,13 +81,11 @@ $material-textInputPaddingTopBottom: 5px;
 
     &:invalid{
       outline:none;
-      box-shadow: none;
-    }
+      box-shadow: none;}
     &:valid, &:focus{
       & ~ .material-form-field-label{
         top: $material-labelOffset - ($material-textInputPaddingTopBottom + 5);
-        font-size:12px;
-      }
+        font-size:12px;}
     }
     &:focus{
       outline:none;

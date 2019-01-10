@@ -1,7 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import VueI18n from 'vue-i18n'
+import VueFullPage from 'vue-fullpage.js'
 
+Vue.use(VueFullPage);
 Vue.use(VueRouter)
 Vue.use(VueI18n)
 
@@ -18,6 +20,7 @@ import Projects from './pages/Projects/Projects.vue'
 import Joinus from './pages/Joinus/Joinus.vue'
 import Contactus from './pages/Contactus/Contactus.vue'
 import Policy from './pages/Policy.vue'
+
 
 const messages = {
   en: {
@@ -36,7 +39,7 @@ const router = new VueRouter({
   base: __dirname,
   routes: [
     {
-      path: '/',
+      path: '/en/home',
       name: 'home',
       component: Home
     },
@@ -67,7 +70,7 @@ const router = new VueRouter({
     },
     {
       path: '/*',
-      redirect: '/'
+      redirect: '/en/home'
     }
   ],
   // https://router.vuejs.org/en/advanced/scroll-behavior.html

@@ -35,6 +35,13 @@ export default {
 </script>
 
 
-<style lang="sass">
-
+<style lang="scss" scoped>
+.icon{
+    transition: transform .2s ease-in;
+  &:hover {
+    transform: scale(1.2);
+    // .icon-img img{
+    // }
+  }
+}
 </style>
