@@ -2,7 +2,7 @@
     <div class="container">
       <!-- container 1 -->
       <div class="row">
-        <div class="col-8 boxy-white">
+        <div class="col-8 boxy-white grid-center">
           <div class="content">
             <h1>{{ $t("message.projects_tab_title") }}</h1>
             <p>{{ $t("message.projects_tab_subtitle") }}</p>

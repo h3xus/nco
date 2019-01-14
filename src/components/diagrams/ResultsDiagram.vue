@@ -27,6 +27,10 @@ export default {
         background: #EBEBEB;
         border-radius: 1em;
         padding: 1em;
+        transition: transform .2s ease-in;
+        &:hover {
+            transform: scale(0.8);
+        }
         img{
             width: 160px;
             height: 160px;

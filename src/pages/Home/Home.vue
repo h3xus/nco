@@ -42,8 +42,8 @@
       </div>
     </div>
     <div class="section video-section">
-        <h2 class="center">{{ $t("message.home_tab_section4_title") }}</h2>
         <div class="container"> 
+        <h2 class="center">{{ $t("message.home_tab_section4_title") }}</h2>
           <youtube-video></youtube-video>
         </div>
     </div>

@@ -56,6 +56,10 @@ p{
         }
     }
 }
+.grid-center{
+  display: grid;
+  align-items: center;
+}
 .double-column{
   display: grid;
   grid-template-columns: auto auto;

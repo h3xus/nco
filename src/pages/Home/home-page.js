@@ -5,6 +5,7 @@ import RoundButton from './../../components/elements/RoundButton.vue';
 import YoutubeVideo from './../../components/elements/YtVideo.vue';
 
 export default {
+    name: 'Home',
     data() {
         return {
             options: {

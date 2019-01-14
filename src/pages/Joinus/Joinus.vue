@@ -1,15 +1,28 @@
 <template lang="html">
-<div class="container">
+  <div class="container">
+      <!-- container 1 -->
+      <div class="row">
+        <div class="col-6 boxy-white grid-center">
+          <div class="content">
+            <h1>{{ $t("message.joinus_tab_title") }}</h1>
+            <p>{{ $t("message.joinus_tab_paragraph1") }}</p>
+            <p>{{ $t("message.joinus_tab_paragraph2") }}</p>
+          </div>
+        </div>
+      </div>
+      <!-- section 2 -->
       <div class="row">
         <div class="col-6 boxy-white">
-          <div class="content">
-            <div class="alter-content">
+          <div class="contents">
+            <h4>{{ $t("message.joinus_tab_extratitle") }}</h4>
+            <p>{{ $t("message.joinus_tab_paragraph") }}</p>
+            <div class="alter-contents">
               <p> lorem ipsum </p>
             </div>
           </div>
         </div>
       </div>
-</div>
+  </div>
 </template>
 
 <script src='./joinus-page.js'></script>

@@ -1,3 +1,3 @@
 export default {
-    name: "Join us"
+    name: "Join-us"
 }

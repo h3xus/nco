@@ -1,11 +1,15 @@
-body, #app{
+#fullpage{
   background: #fff;
-  height: 100%;}
+  background-image: none; 
+}
 .navbar {
   background: #fff; 
 } 
 .boxtop {
   display: none;
+}
+#fullpage{
+  position: fixed;
 }
 .section {
   height: 100vh;
@@ -14,6 +18,18 @@ body, #app{
   position: relative;
   display: grid;
   align-content: center;
+  opacity: 0;
+  transition: opacity .2s ease-in;
+  .youtube-video{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+  }
+  &.active{
+    opacity: 1;
+    .youtube-video{
+      opacity: 1;
+    }
+  }
   .container{
     display: grid;
     align-items: center;
