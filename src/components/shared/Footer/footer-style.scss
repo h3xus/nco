@@ -8,7 +8,11 @@
     span, a{
         font-size: 10px;
         color: #FFF;
-        text-decoration: none;}
+        text-decoration: none;
+        span {
+            vertical-align: super;
+        }
+    }
     .nav-footer-content{
         display: grid;
         padding-top: 10px;

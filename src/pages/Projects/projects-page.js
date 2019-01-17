@@ -2,9 +2,9 @@
 import Slick from 'vue-slick'
 
 export default {
-  name: "Previous projects",
   data() {
-      return {
+    return {
+        name: "Previous-projects",
         items: [
           {          
             person: '$t("message.projects_tab_project1_person")',

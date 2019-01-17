@@ -13,7 +13,7 @@
       <!-- section 2 -->
         <div class="row">
           <div class="col-8">
-            <contact-component class="contents col-6"></contact-component>
+            <contact-component class="contents col-12"></contact-component>
         </div>
     </div>
   </div>

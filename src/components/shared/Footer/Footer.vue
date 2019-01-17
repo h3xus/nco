@@ -1,5 +1,5 @@
 <template lang="html">
-  <div class="nav-footer">
+  <div class="nav-footer" v-if="$router.currentRoute.name!=name">
     <div class="nav-footer-content">
       <div class="left-footer">
         <a href="https://www.facebook.com"><i class="icon facebook"></i></a>

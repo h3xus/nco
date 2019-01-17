@@ -1,6 +1,12 @@
-.relative-box {
-    position: relative;
-}
-.absolute-box {
-    position: absolute;
-}
+ .boxy-grey{
+     height: auto;
+     padding: 1em;
+ }
+ .alter-contents {
+     top: 90%;
+     left: 40%;
+     p {
+        font-size: .7em;
+        color: #000;
+     }
+ }

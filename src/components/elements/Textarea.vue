@@ -8,9 +8,9 @@
 <script>
 
 export default {
-    name: "MaterialTextarea",
-    data() {
-        return {
+  data() {
+    return {
+            name: "MaterialTextarea",
             message: {}        
         }
     },

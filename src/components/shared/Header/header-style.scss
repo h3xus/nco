@@ -42,6 +42,14 @@
                 &.router-link-active {
                     text-shadow: -2px -1px 20px rgba(255, 255, 255, 1);
                     color: #5A46F3;
+                    position: relative;
+                    &::after{
+                        content: '';
+                        position: absolute;
+                        height: 2px;
+                        width: auto;
+                        background: #5A46F3;
+                    }
                 }
                 &:hover {
                     color: #3498db;
@@ -64,7 +72,7 @@
     }
     // HAMBURGER MENU & ANIMATION 
     .nav-item a .router-link-active {
-    color: #5A46F3;
+        color: #5A46F3;
     }
     .menu-toggle{
     justify-self: end;

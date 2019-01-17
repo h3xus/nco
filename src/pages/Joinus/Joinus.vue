@@ -12,12 +12,17 @@
       </div>
       <!-- section 2 -->
       <div class="row">
-        <div class="col-6 boxy-white">
-          <div class="contents">
-            <h4>{{ $t("message.joinus_tab_extratitle") }}</h4>
-            <p>{{ $t("message.joinus_tab_paragraph") }}</p>
-            <div class="alter-contents">
-              <p> lorem ipsum </p>
+        <div class="col-12 main">
+            <div class="row">
+              <div class="col-6">
+                <h4>{{ $t("message.joinus_tab_extratitle") }}</h4>
+                <p>{{ $t("message.joinus_tab_paragraph") }}</p>
+              </div>
+              <div class="col-6 contents">
+                <div class="alter-contents">
+                  <contact-component class="wide"></contact-component>
+                </div>
+              </div>
             </div>
           </div>
         </div>

@@ -5,9 +5,9 @@
 <script>
 
 export default {
-    name: "RoundButton",
     data() {
         return {
+            name: "RoundButton",
             message: {}        
         }
     },

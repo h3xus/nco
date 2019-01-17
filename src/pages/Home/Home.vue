@@ -47,6 +47,10 @@
           <youtube-video></youtube-video>
         </div>
     </div>
+    <div class="section fp-auto-height footer" id="section-last" data-anchor="footer" style="height:300px">      
+        <footer-part style="height:300px">
+        </footer-part>
+    </div>
   </full-page>
 </template>
 

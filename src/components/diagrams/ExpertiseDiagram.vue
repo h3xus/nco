@@ -30,7 +30,11 @@
 
 <script>
 export default {
-  name: "ExpertiseDiagram"
+  data() {
+    return {
+      name: "ExpertiseDiagram"
+    }
+  }
 }
 </script>
 

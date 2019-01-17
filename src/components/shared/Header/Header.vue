@@ -5,7 +5,6 @@
       <!-- <img src="./../../assets/images/logo.png" class="logo" alt="NCON Logo"> -->
       <div class="logo"></div>
     </router-link>
-    {{name}}
     <div class="menu-toggle" id="mobile-menu">
       <span class="bar"></span>
       <span class="bar"></span>

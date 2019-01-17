@@ -57,6 +57,7 @@
       display: grid;
       align-items: normal;
       align-content: end;
+      padding-bottom: 2em;
     }
     &::after {
       position: absolute;
@@ -71,6 +72,9 @@
       animation: bounce 3s infinite;
     }
   }
+}
+.footer{
+  background: #ACACAC;
 }
 .grid-wrapper {
   display: grid;

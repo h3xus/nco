@@ -14,7 +14,11 @@
 
 <script>
 export default {
-    
+    data() {
+        return {   
+            name: "ResultsDiagram"
+        }
+    }
 }
 </script>
 

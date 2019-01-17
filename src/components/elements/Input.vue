@@ -8,9 +8,9 @@
 <script>
 
 export default {
-    name: "Input",
-    data() {
-        return {
+  data() {
+    return {
+            name: "MaterialInput",
             message: {}        
         }
     },

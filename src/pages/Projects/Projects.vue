@@ -2,7 +2,7 @@
     <div class="container">
       <!-- container 1 -->
       <div class="row">
-        <div class="col-8 boxy-white grid-center">
+        <div class="col-6 boxy-white grid-center">
           <div class="content">
             <h1>{{ $t("message.projects_tab_title") }}</h1>
             <p>{{ $t("message.projects_tab_subtitle") }}</p>
@@ -12,9 +12,8 @@
       </div>
       <!-- section 2 -->
       <div class="row">
-        <div class="col-9 boxy">
+        <div class="col-9 boxy contents">
           <ul id="projects">
-            <!-- <li v-repeat="item in items" > -->
               <div class="double-column">  
                 <div class="left-column">      
                   <div class="avatar"><div></div></div>            
@@ -29,27 +28,17 @@
                   </div>
                 </div>
               </div>    
-            <!-- </li> -->
-          </ul>         
+          </ul>  
+          <div class="alter-contents">
+            <p> {{ $t("message.projects_tab_lasttitle") }}</p>
+          </div>         
         </div>
-        <div class="col-xs-6 col-md-5"></div>
       </div>
-      <!-- section 3 -->
-      <div class="row">
-        <div class="col-xs-12 col-md-12 boxy-grey ">
-          <div class="content">
-            <h2> {{ $t("message.about_tab_approach_title") }}</h2> 
-            <p> {{ $t("message.about_tab_approach") }}</p>
-          </div>            
-        </div>
-      </div
-      <!-- section 4  -->
-
     </div>
 </template>
 
 <script src='./projects-page.js'></script>
 
-<style lang="sass" scoped>
-@import './projects-style.sass'
+<style lang="scss" scoped>
+@import './projects-style.scss';
 </style>

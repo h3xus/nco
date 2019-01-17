@@ -1,7 +1,7 @@
 export default {
-  name: 'Header',
   data () {
     return {
+      name: 'Header-part',
       scrollPosition: null,
       currentComponent: '',
       switchLanguage: 'en'

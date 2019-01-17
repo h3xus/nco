@@ -41,6 +41,11 @@
 
 <script>
 export default {
+    data() {
+        return {
+            name: "Policy"
+        }
+    }
     
 }
 </script>

@@ -1,22 +1,16 @@
-.contents {
-    position: relative;
-    width: 50vw;
-    background: #8354f0;
-    margin-top: 5%;
-    margin-bottom: 10%;
-    min-height: 400px;
-    color: #fff;
-    padding: 4vw 2vw;
-    p {
-        color: #fff;
+
+.main {
+    background: #5A46F3;
+    min-height: 15em;
+    margin-bottom: 14em;
+    .contents {
+        min-height: 5em;
+        background: transparent;
+        .alter-contents {
+            width: 100%;
+            padding: 1em;
+            margin: 0;
+            top: 1em;
+        }
     }
-}
-.alter-contents {
-    position: absolute;
-    left: 4%;
-    top: 80%;
-    width: 56vw;
-    // border: 1px solid red;
-    margin-top: 5%;
-    background: #ccc;
 }

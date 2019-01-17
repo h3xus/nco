@@ -1,3 +1,12 @@
+import ContactComponent from '../../components/forms/Contact.vue'
+
 export default {
-    name: "Join-us"
+    data() {
+        return {
+            name: "Join-us"            
+        }
+    },
+    components: {    
+        ContactComponent
+    }
 }

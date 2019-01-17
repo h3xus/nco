@@ -30,7 +30,11 @@
 
 <script>
 export default {
-  name: "AboutDiagram"
+  data() {
+    return {
+      name: "AboutDiagram"
+    }
+  }
 }
 </script>
 

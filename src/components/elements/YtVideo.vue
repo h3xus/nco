@@ -7,9 +7,9 @@
 <script>
 
 export default {
-    name: "YoutubeVideo",
     data() {
         return {
+            name: "YoutubeVideo",
             message: {}        
         }
     },

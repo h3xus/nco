@@ -1,0 +1,23 @@
+.avatar {
+  width: 90px;
+  height: 90px;
+  background: #ccc;
+  border-radius: 80px;}
+.contents {
+  margin-bottom: 4em;
+  .alter-contents {
+    padding: 1em;
+    left: 60%;
+    width: 30vw;
+    p {
+      font-size: .7em;
+      color: #000;
+    }
+  }
+}
+.container {
+  margin-bottom: 24vh;
+}
+p {
+  font-size: .8em;
+}

@@ -21,9 +21,9 @@ import AboutDiagram from './components/diagrams/AboutDiagram.vue'
 import ExpertiseDiagram from './components/diagrams/ExpertiseDiagram.vue'
 
 export default {
-  name: 'app',
   data () {
     return {
+      name: 'NconApp',
       transitionName: 'slide-left'
     }
   },
