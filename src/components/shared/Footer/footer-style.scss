@@ -5,13 +5,14 @@
   height: 90px;
   color: #FFF;
     }
-    span, a{
-        font-size: 10px;
-        color: #FFF;
-        text-decoration: none;
-        span {
+    div,
+    a,
+    span {
+            font-size: 10px;
+            text-decoration: none;
+            color: #FFF;
             vertical-align: super;
-        }
+        
     }
     .nav-footer-content{
         display: grid;

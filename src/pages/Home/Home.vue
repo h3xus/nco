@@ -48,8 +48,10 @@
         </div>
     </div>
     <div class="section fp-auto-height footer" id="section-last" data-anchor="footer" style="height:300px">      
+      <div>
         <footer-part style="height:300px">
         </footer-part>
+      </div>        
     </div>
   </full-page>
 </template>

@@ -1,26 +1,61 @@
 // import HeaderComponent from '../../components/shared/Header.vue'
-import Slick from 'vue-slick'
+import Slick from 'vue-slick';
 
 export default {
-  data() {
-    return {
-        name: "Previous-projects",
-        items: [
-          {          
-            person: '$t("message.projects_tab_project1_person")',
-            company: '$t("message.projects_tab_project1_company")',
-            testi: '$t("message.projects_tab_project1_testemonial")',
-            claim: '$t("message.projects_tab_project1_claim")',
-            details: '$t("message.projects_tab_project1_details")'
-          }
-        ],
-        foo: {
-          bar: "baz"
-          }
-        }
+     data() {
+         return {
+           slickOptions: {
+             slidesToShow: 3
+           },
+         };
+       },
+       methods: {
+         next() {
+           this.$refs.slick.next();
+         },
+         prev() {
+           this.$refs.slick.prev();
+         },
+         reInit() {
+           this.$nextTick(() => {
+             this.$refs.slick.reSlick();
+           });
+         },
+         handleAfterChange(event, slick, currentSlide) {
+           console.log('handleAfterChange', event, slick, currentSlide);
+         },
+         handleBeforeChange(event, slick, currentSlide, nextSlide) {
+           console.log('handleBeforeChange', event, slick, currentSlide, nextSlide);
+         },
+         handleBreakpoint(event, slick, breakpoint) {
+           console.log('handleBreakpoint', event, slick, breakpoint);
+         },
+         handleDestroy(event, slick) {
+           console.log('handleDestroy', event, slick);
+         },
+         handleEdge(event, slick, direction) {
+           console.log('handleEdge', event, slick, direction);
+         },
+         handleInit(event, slick) {
+           console.log('handleInit', event, slick);
+         },
+         handleReInit(event, slick) {
+           console.log('handleReInit', event, slick);
+         },
+         handleSetPosition(event, slick) {
+           console.log('handleSetPosition', event, slick);
+         },
+         handleSwipe(event, slick, direction) {
+           console.log('handleSwipe', event, slick, direction);
+         },
+         handleLazyLoaded(event, slick, image, imageSource) {
+           console.log('handleLazyLoaded', event, slick, image, imageSource);
+         },
+         handleLazeLoadError(event, slick, image, imageSource) {
+           console.log('handleLazeLoadError', event, slick, image, imageSource);
+         }      
   },
   components: {
-    // HeaderComponent,
     Slick
   }
 }

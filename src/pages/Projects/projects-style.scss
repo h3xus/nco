@@ -3,6 +3,15 @@
   height: 90px;
   background: #ccc;
   border-radius: 80px;}
+.slick-slide{
+  opacity: 0;
+}
+.slick-current {
+  opacity: 1;
+}
+.slick-slider{
+  overflow: hidden;
+}
 .contents {
   margin-bottom: 4em;
   .alter-contents {

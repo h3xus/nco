@@ -44,8 +44,8 @@ export default {
     border: 0;
     border-radius: 2em;
     padding: 0.2em 1em;
-    &:hover{
-        cursor: pointer;}
+    background-position: center;
+    transition: background 0.8s;
     &.normal {
         padding: 0.3em 1em;}
     &.large{
@@ -60,5 +60,14 @@ export default {
             width: 10em;}
     &.center{
             margin: 0 auto;}
+    &:hover,&.indigo:hover {
+        cursor: pointer;
+        background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+    }
+    &:active {
+        background-color: #6eb9f7;
+        background-size: 100%;
+        transition: background 0s;
+    }
 }    
 </style>

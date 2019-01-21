@@ -33,26 +33,40 @@
                 text-align: center
             }
             a {
+                position: relative;
                 color: #000;
                 font-size: 0.7rem;
                 font-weight: bolder;
                 text-decoration: none;
                 transition: color 0.3s ease-out;
                 text-transform: uppercase;   
+                &::after {
+                    content: ' ';
+                    position: absolute;
+                    height: 1px;
+                    width: 0;
+                    top: 1.4em;
+                    left: 1%;
+                    
+                    background: #5A46F3;
+                }
                 &.router-link-active {
                     text-shadow: -2px -1px 20px rgba(255, 255, 255, 1);
                     color: #5A46F3;
                     position: relative;
                     &::after{
-                        content: '';
-                        position: absolute;
-                        height: 2px;
-                        width: auto;
-                        background: #5A46F3;
+                        content: ' ';
+                        transition: 2s ease-in-out width;
+                        width: 100%;
                     }
                 }
                 &:hover {
                     color: #3498db;
+                      &::after {
+                          content: ' ';
+                          transition: .9s ease-in-out width;
+                          width: 100%;
+                      }
                 }
             }
         }

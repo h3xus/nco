@@ -14,7 +14,24 @@
       <div class="row">
         <div class="col-9 boxy contents">
           <ul id="projects">
-              <div class="double-column">  
+            <slick
+              ref="slick"
+              :options="slickOptions"
+              @afterChange="handleAfterChange"
+              @beforeChange="handleBeforeChange"
+              @breakpoint="handleBreakpoint"
+              @destroy="handleDestroy"
+              @edge="handleEdge"
+              @init="handleInit"
+              @reInit="handleReInit"
+              @setPosition="handleSetPosition"
+              @swipe="handleSwipe"
+              @lazyLoaded="handleLazyLoaded"
+              @lazyLoadError="handleLazeLoadError">
+              <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a>
+              <a href="http://placehold.it/2000x1000"><img src="http://placehold.it/2000x1000" alt=""></a>
+            </slick>
+              <!-- <div class="double-column">  
                 <div class="left-column">      
                   <div class="avatar"><div></div></div>            
                 </div>
@@ -27,7 +44,7 @@
                     <p>{{$t("message.projects_tab_project1_company")}}</p>
                   </div>
                 </div>
-              </div>    
+              </div>     -->
           </ul>  
           <div class="alter-contents">
             <p> {{ $t("message.projects_tab_lasttitle") }}</p>

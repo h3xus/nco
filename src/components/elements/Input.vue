@@ -1,7 +1,7 @@
 <template>
     <div class="material-form-field">
-        <input type="text" required/>
-        <label class="material-form-field-label">{{buttonName}}</label>
+        <input :name="inputCaption" :type="inputName" required/>
+        <label class="material-form-field-label">{{inputCaption}}</label>
     </div>
 </template>
 
@@ -15,11 +15,11 @@ export default {
         }
     },
     props: {
-        buttonName: {
-            type: String,         
+        inputName: {
+            type: String         
         },
-        buttonFunc: {
-
+        inputCaption: {
+            type: String
         }
     }
 }

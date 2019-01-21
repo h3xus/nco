@@ -67,32 +67,32 @@
       z-index: 2;
       content: url(./../../assets/images/arrow.png);
       color: #fff;
-      -moz-animation: bounce 3s infinite;
-      -webkit-animation: bounce 3s infinite;
-      animation: bounce 3s infinite;
+      animation: bounce 2s infinite;
     }
   }
 }
-.footer{
-  background: #ACACAC;
+.footer{  
+  background: #fff;
+  div{
+    margin-top: 50vh;
+    background: #ACACAC;
+    height: 50vh;
+  }
 }
 .grid-wrapper {
   display: grid;
   align-items: center;
   justify-items: center;
 }
-
 #fullpage + .nav-footer {
   // border: 2px dashed red;
   position: fixed;
   bottom: 0;
 }
-
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0); } 
-  40% {
+  0%,
+  100% {
     transform: translateY(-30px); } 
-  60% {
-    transform: translateY(-15px); }
+  50% {
+    transform: translateY(0); } 
 }

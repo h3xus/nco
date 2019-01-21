@@ -46,6 +46,7 @@ export default {
 }
 </script>
 
-<style lang="sass">
-@import './app-general-style.scss'
+<style lang="scss">
+@import './app-general-style.scss';
+@import './app-responsive-style.scss';
 </style>
