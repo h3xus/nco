@@ -47,6 +47,9 @@ export default {
 </script>
 
 <style lang="scss">
+@import './assets/scss/reset.scss';
+@import './assets/scss/fonts.scss';
+@import './assets/scss/grid.scss';
 @import './app-general-style.scss';
 @import './app-responsive-style.scss';
 </style>
