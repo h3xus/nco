@@ -1,16 +1,11 @@
 <template lang="html">
-<div class="header">
-  <nav class="navbar">
-    <router-link :to="'/' + switchLanguage + '/'">          
-      <!-- <img src="./../../assets/images/logo.png" class="logo" alt="NCON Logo"> -->
+  <header class="header">
+    <router-link :to="'/' + switchLanguage + '/home'">
       <div class="logo"></div>
     </router-link>
-    <div class="menu-toggle" id="mobile-menu">
-      <span class="bar"></span>
-      <span class="bar"></span>
-      <span class="bar"></span>
-    </div>
-    <ul class="nav no-search">
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
       <li class="nav-item">
         <router-link :to="'/' + switchLanguage + '/home'">
           {{ $t("message.home") }}
@@ -37,12 +32,11 @@
         </router-link>
       </li>
     </ul>
-  </nav>
-</div>
+  </header>
 </template>
 
 <script src='./header-component.js'></script>
- 
+
 <style lang="scss">
-@import './header-style.scss'
+  @import './header-style.scss'
 </style>

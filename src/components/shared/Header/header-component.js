@@ -9,10 +9,10 @@ export default {
   },
   // 為了加上 header 陰影花了快一小時 囧
   mounted() {
-    window.addEventListener('scroll', this.updateScroll);
+    // window.addEventListener('scroll', this.updateScroll);
   },
   destroyed() {
-    window.removeEventListener('scroll', this.updateScroll)
+    // window.removeEventListener('scroll', this.updateScroll)
   },
   methods: {
     changeLanguage(lang) {
