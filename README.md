@@ -22,7 +22,5 @@
 ## Build Setup
 
 <p align="center">
-  <a target="_blank" href="https://github.com/WeiChiaChang/vue-boilerplate">
     <img alt="vue-boilerplate-npm-setting" src="https://i.imgur.com/EywRl8X.png">
-  </a>
 </p>

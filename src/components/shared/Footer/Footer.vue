@@ -24,5 +24,5 @@
 <script src='./footer-component.js'></script>
 
 <style lang="scss" scoped>
-@import './footer-style.scss'
+@import './footer-style.scss';
 </style>

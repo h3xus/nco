@@ -26,7 +26,7 @@ export default {
     data () {
         return {
             approval: 0,
-            cookies: 1,
+            cookies: 0,
             image: cookieSVG
         }
     },
@@ -53,24 +53,30 @@ export default {
 }
 </script>
 
-<style lang="sass" scoped>
-.cookies-approvment
-    position: fixed
-    bottom: 0
-    width: 100%
-    height: 120px
-    background-color: #fff
-    color: #000
-    border-top: 1px solid #ccc
-    padding: 1em
-    .cookie-approvment-content p
-        font-size: 10px
-    .cookie-approvment-content button
-        border-radius: 10px
-.grid-container 
-  display: grid
-  align-content: space-evenly
-  grid-template-columns: 0.2fr 1.8fr 0.5fr
-  grid-template-rows: 1fr
-  grid-column-gap: 1em;
+<style lang="scss" scoped>
+.cookies-approvment {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 120px;
+    background-color: #fff;
+    color: #000;
+    border-top: 1px solid #ccc;
+    padding: 1em;
+    .cookie-approvment-content {
+        p {
+            font-size: 10px;
+        }
+        button {
+            border-radius: 10px;
+        }
+    }
+}
+.grid-container {
+  display: grid;    
+  align-content: space-evenly;
+  grid-template-columns: 0.2fr 1.8fr 0.5fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 1em;;
+}
 </style>

@@ -52,5 +52,5 @@
 <script src='./about-page.js'></script>
 
 <style lang="scss" scoped>
-@import '/about-style.scss'
+@import '/about-style.scss';
 </style>

@@ -33,5 +33,5 @@
 <script src='./joinus-page.js'></script>
 
 <style lang="scss" scoped>
-@import '/joinus-style.scss'
+@import '/joinus-style.scss';
 </style>

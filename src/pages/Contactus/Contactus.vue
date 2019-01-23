@@ -22,5 +22,5 @@
 <script src='./contactus-page.js'></script>
 
 <style lang="scss" scoped>
-@import '/contactus-style.scss'
+@import '/contactus-style.scss';
 </style>

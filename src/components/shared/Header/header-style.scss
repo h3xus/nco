@@ -92,8 +92,7 @@
                 }
                 &::after {
                     top: -5px;
-                }
-    
+                }    
             }
     }
     .menu-btn {
@@ -112,15 +111,14 @@
                 }
             }
             &:not(.steps) {
-                .navicon:before,
-                .navicon:after{
+                .navicon::before,
+                .navicon::after{
                     top: 0;
                 }
             }
         }
     }
 }
-
 @media (min-width: 48em) {
     .header {
         li {

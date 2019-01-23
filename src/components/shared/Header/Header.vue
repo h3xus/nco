@@ -38,5 +38,5 @@
 <script src='./header-component.js'></script>
 
 <style lang="scss">
-  @import './header-style.scss'
+  @import './header-style.scss';
 </style>
