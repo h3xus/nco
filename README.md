@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## vue-boilerplate based on  <a target="_blank" href="https://github.com/WeiChiaChang/vue-boilerplate">vue-boilerplate</a>
 
 ```
@@ -9,11 +10,9 @@
 │   ├── App.vue
 │   ├── assets                        # assets including images and fonts
 │   │   └── images
-│   │       ├── icon.jpg
 │   ├── components                    # reusable component
 │   │   └── shared                    # shared component
 │   ├── i18n                          # folder for different languages switch
-│   │   ├── en.json                   # English version
 │   ├── main.js
 │   └── pages                         # multiple pages
 └── webpack.config.js                 # webpack configuration info
