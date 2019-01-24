@@ -1,5 +1,3 @@
-
-
 html,
 body {
   height: 100%;
@@ -156,22 +154,26 @@ p {
 }
 
 .row::after {
-	content: "";
-	display: table;
-	clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .hidden-sm {
   display: none;
 }
 
-@media only screen and (min-width: 33.75em) {  /* 540px */
+@media only screen and (min-width: 33.75em) {
+
+  /* 540px */
   .container {
     width: 80%;
   }
 }
 
-@media only screen and (min-width: 45em) {  /* 720px */
+@media only screen and (min-width: 45em) {
+
+  /* 720px */
   .col-1 {
     width: 4.33%;
   }
@@ -225,7 +227,7 @@ p {
   }
 }
 
-@media only screen and (min-width: 60em) { /* 960px */
+@media only screen and (min-width: 60em) {
   .container {
     width: 75%;
     max-width: 60rem;
@@ -234,45 +236,45 @@ p {
 
 
 .offset-col-1 {
-    margin-left: 4.33%;
-  }
+  margin-left: 4.33%;
+}
 
-  .offset-col-2 {
-    margin-left: 12.66%;
-  }
+.offset-col-2 {
+  margin-left: 12.66%;
+}
 
-  .offset-col-3 {
-    margin-left: 21%;
-  }
+.offset-col-3 {
+  margin-left: 21%;
+}
 
-  .offset-col-4 {
-    margin-left: 29.33%;
-  }
+.offset-col-4 {
+  margin-left: 29.33%;
+}
 
-  .offset-col-5 {
-    margin-left: 37.66%;
-  }
+.offset-col-5 {
+  margin-left: 37.66%;
+}
 
-  .offset-col-6 {
-    margin-left: 46%;
-  }
+.offset-col-6 {
+  margin-left: 46%;
+}
 
-  .offset-col-7 {
-    margin-left: 54.33%;
-  }
+.offset-col-7 {
+  margin-left: 54.33%;
+}
 
-  .offset-col-8 {
-    margin-left: 62.66%;
-  }
+.offset-col-8 {
+  margin-left: 62.66%;
+}
 
-  .offset-col-9 {
-    margin-left: 71%;
-  }
+.offset-col-9 {
+  margin-left: 71%;
+}
 
-  .offset-col-10 {
-    margin-left: 79.33%;
-  }
+.offset-col-10 {
+  margin-left: 79.33%;
+}
 
-  .offset-col-11 {
-    margin-left: 87.66%;
-  }
+.offset-col-11 {
+  margin-left: 87.66%;
+}
