@@ -1,4 +1,8 @@
 <template>
+<div>
+    <div class="secure">
+        Please contact at: <a href="mailto:contact@ncon.biz">contact@ncon.biz</a>
+    </div>
     <div class="component" :class="classes">              
             <material-input id="name" v-model="message.name" inputName="name" inputCaption="Name"></material-input>            
             <material-input id="phone" v-model="message.phone" inputName="tel" inputCaption="Telephone number"></material-input>                     
@@ -8,6 +12,7 @@
             <material-textarea buttonName="Send"></material-textarea> 
             <round-button classes="indigo large" buttonName="Send"></round-button>
     </div>
+</div>
 </template>
 
 <script src="./contact-component.js">

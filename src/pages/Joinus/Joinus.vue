@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-6 boxy-white grid-center">
           <div class="content">
-            <h1>{{ $t("message.joinus_tab_title") }}</h1>
+            <h1 class="purple-txt">{{ $t("message.joinus_tab_title") }}</h1>
             <p>{{ $t("message.joinus_tab_paragraph1") }}</p>
             <p>{{ $t("message.joinus_tab_paragraph2") }}</p>
           </div>

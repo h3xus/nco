@@ -14,7 +14,7 @@
         <router-link :to="'/en/privacy-policy'">
             {{ $t("message.privacy_policy") }}
             </router-link>
-        <span class="hide-on-mobile">NCON Natalia </span>
+        <span class="hide-on-mobile">NCON Natalia Kedzior</span>
       </div>
       
     </div>
