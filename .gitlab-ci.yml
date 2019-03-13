@@ -1,3 +1,15 @@
+
+run site:
+  image: node:6
+  stage: develop
+  script:
+    - npm install --progress=false
+    - npm run dev
+  artifacts:
+    expire_in: 1 week
+    paths:
+      - dist
+      
 build site:
   image: node:6
   stage: build
