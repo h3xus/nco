@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## vue-boilerplate based on  <a target="_blank" href="https://github.com/WeiChiaChang/vue-boilerplate">vue-boilerplate</a>
 
 ```
